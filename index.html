@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Andres Bermudez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Desarrollador Backend, portafolio!">
+        <title>Portfolio | Andres</title>
+        <link rel="icon" href="/images/perfil.png" type="image/x-icon">
+        <link rel="stylesheet" href="./Styles/style.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="menuNavegacion">
+                <a class="seccionPagina" href="#bienvenida">Inicio</a>
+                <a class="seccionPagina" href="#sobreMi">Perfil</a>
+                <a class="seccionPagina" href="#proyectos">Proyectos</a>
+                <a class="seccionPagina" href="#certificaciones">Certificaciones</a>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="presentacion" id="bienvenida">
+                <div class="informacionInicio">
+                    <a class="imagenPerfilAnclaje" href="#sobreMi">
+                        <img src="./images/perfil.png" alt="Imagen de perfil" class="imagenPerfil">
+                    </a>
+
+                    <h1 class="nombreTitulo">Andrés Bermúdez</h1>
+                    <h2 class="textoDesarrolladorBackend">Desarrollador BackEnd</h2>
+
+                    <div class="linksRedesSociales">
+                        <a class="linkGitHub"  href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="33" height="18">GitHub</a>
+                        <a class="linkLinkedIn" href="https://www.linkedin.com/in/andres-bermudez-dev"><img src="./images/iconLinkedIn.png" width="30" height="20">LinkedIn</a>
+                        <a class="linkCV" href=""><img src="./images/iconCV.png" alt="Icono de Documento" width="18" height="18">Curriculum</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="proyectos" id="proyectos">
+                <h2 class="subtituloProyectos"><img src="./images/iconProyectos.png" alt="Icono de Maletin" width="30" height="30" style="padding: 7px;">Proyectos</h2>
+
+                <div class="contenedorProyectos">
+                    <div class="proyecto">
+                        <h3 class="subtituloProyecto">Formulario en Java Swing</h3>
+
+                        <p class="descripcionProyecto">Este es un formulario creado con Java Swing. Permite el registro de 
+                                                       datos y genera automáticamente un documento con la información 
+                                                       proporcionada por el usuario.</p>
+
+                        <div class="contenedorImagenesProyecto">   
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_interfazPrincipal.png">
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_interfazLlenado.png">
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_documentoGenerado.jpeg">
+                        </div>
+
+                        <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Formulario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                    </div>
+
+                    <div class="proyecto">
+                        <h3 class="subtituloProyecto">Calculadora en Java Swing</h3>
+
+                        <p class="descripcionProyecto">Esta es una calculadora con interfaz gráfica desarrollada en Java Swing.
+                                                       Permite realizar operaciones básicas y almacenarlas temporalmente en un 
+                                                       apartado independiente para que el usuario las observe mientras continúa 
+                                                       con otras operaciones. También incluye la opción de cambiar el color
+                                                       de fondo y una sección con información sobre el desarrollador.</p>
+
+                        <div class="contenedorImagenesProyecto">
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/Calculadora_InterfazPrincipal.jpeg">
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/Calculadora_InterfazOperaciones.jpeg">
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/Calculadora_InterfazCambioFondo.jpeg">
+                        </div>
+
+                        <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Calculadora-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                    </div>
+
+                    <div class="proyecto">
+                        <h3 class="subtituloProyecto">Simulador Sistema Bancario</h3>
+
+                        <p class="descripcionProyecto">Este es un simulador de un sistema bancario con funcionalidades de registro 
+                                                       e inicio de sesión de usuarios, consulta de saldo, depósito y retiro de dinero. 
+                                                       Incluye validación de datos antes de cada transacción y Al finalizar cada operación, 
+                                                       se genera una factura que incluye los datos del usuario, el monto retirado 
+                                                       y el saldo disponible.</p>
+                                                       
+                        <div class="contenedorImagenesProyecto">
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/Cajero_interfazPrincipal.jpeg">
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/Cajero_interfazInicioSesion.jpeg">
+                            <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/Cajero_interfazFinal.jpeg">
+                        </div>
+
+                        <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Sistema-Bancario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certificaciones" id="certificaciones">
+                <h2 class="subtituloCertificaciones"><img src="./images/iconCertificado.png" alt="Icono de Certificado" width="30" height="30" style="padding-right: 7px;">Certificaciones</h2>
+                
+                <div class="contenedorImagenesCertificaciones">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/PooCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/introduccionJavaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/fundamentosIngenieriaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/programacionBasicaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/insigniaSenatec.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/dataAnalyticsCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/fundamentosPythonPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/entornoDesarrolloLinuxPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/entornoDesarrolloWindowsPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/lenguajesProgramacionPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/estructurasControlPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/diagramasFlujoPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/resolverProblemasCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/logica2Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/logicaAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/HTMLCSS3Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/HTMLCSS2Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/HTMLCSS1Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/chatGPTAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/aprenderAprenderAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/habitosAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/focoAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/linkedinAlura.png" alt="Imagen de Certificado">
+                </div>
+            </div>
+
+            <div class="sobreMi" id="sobreMi">
+                <h2 class="subtituloSobreMi"><img src="./images/iconUser.png" width="30" height="30">Sobre mí</h2>
+                
+                <div class="parrafoImagen">
+                    <img class="imagenSobreMi" src="./images/perfil.png" alt="Imagen de Andres" width="150" height="150">
+
+                    <p class="parrafoSobreMi">Hola, soy <span class="palabrasSignificativasSobreMi">Andrés</span>. Mi viaje en la <span class="palabrasSignificativasSobreMi">programación</span> comenzó a los 12 años,
+                                              cuando empecé a hacer modificaciones a <span class="palabrasSignificativasSobreMi">videojuegos</span>,
+                                              aunque en ese momento no sabía que estaba <span class="palabrasSignificativasSobreMi"></span>programando</span>. 
+                                              Actualmente, me dedico al <span class="palabrasSignificativasSobreMi">desarrollo Backend.</span>
+                                              <br>
+                                              <br>Cuento con mas de un (1)año de experiencia en <span class="palabrasSignificativasSobreMi">programación.
+                                              </span> Estoy especializandome en <span class="palabrasSignificativasSobreMi">Java</span>
+                                              con <span class="palabrasSignificativasSobreMi">Spring Boot.</span> Estudiante de 
+                                              <span class="palabrasSignificativasSobreMi">Ingeniería de Software</span> en Bogotá, Colombia 🇨🇴. 
+                    </p>
+
+                    <div class="links">
+                        <a class="link" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="17" height="15">Andres201900@outlook.com</a>
+                        <a class="link" href="https://wa.me/3133740300"><img src="./images/iconWhatsapp.png" alt="Icono de Whatsapp" style="margin-right: 5px;" width="18" height="18">(+57) 313 374 0300</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p class="copryrigth">© 2024 Andrés Bermúdez.</p>
+        </footer>
+    </body>
+</html> 
