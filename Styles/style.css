@@ -11,7 +11,7 @@
 }
 
 html, body {
-    background-image: linear-gradient(rgb(212, 212, 212) , rgb(46, 46, 46));
+    background-image: linear-gradient(rgb(175, 175, 175) , rgb(46, 46, 46));
     box-sizing: border-box;
     color: white;
     cursor: default;
@@ -20,6 +20,8 @@ html, body {
     align-items: center;
     justify-content: center;
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 /*----------------------------------------------------------------HEADER-----------------------------------------------------------------*/
 
@@ -41,7 +43,6 @@ html, body {
     .menuNavegacion {
         display: flex;
         gap: 1.8rem;
-        display: flex;
         padding: 0.3125rem 1.25rem 0.3125rem 1.25rem;
     }
 
@@ -105,6 +106,7 @@ html, body {
             font-size: 4rem;
             font-family: var(--fuenteLetra);
             font-weight: 1000;
+            text-align: center;
         }
 
         .textoDesarrolladorBackend {
@@ -260,9 +262,9 @@ html, body {
                 .descripcionProyecto {
                     font-family: var(--fuenteLetra);
                     font-size: 1.1rem;
-                    font-weight: 700;
+                    font-weight: 500;
                     margin: 1.5rem;  
-                    color: rgb(0, 0, 0); 
+                    color: rgb(255, 255, 255); 
                 }
 
                 .contenedorImagenesProyecto {
@@ -277,7 +279,7 @@ html, body {
 
                 .imagenProyecto {
                     width: 30%;
-                    height: auto;
+                    height: 100%;
                     border-radius: 0.9375rem;
                     transition: 0.4s;
                     transition: 0.4s;
@@ -331,6 +333,7 @@ html, body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 50px;
     }
 
         .subtituloCertificaciones {
@@ -350,7 +353,6 @@ html, body {
             justify-content: center;
             flex-wrap: wrap;
             overflow-y: scroll;
-            border-bottom: 0.0625rem white solid;
         }
 
         .contenedorImagenesCertificaciones::-webkit-scrollbar {
@@ -363,7 +365,7 @@ html, body {
             }
 
         .imagenCertificacion {
-            width: 23%;
+            width: 30%;
             height: auto;
             margin: 1%;
             border-radius: 0.9375;
@@ -383,8 +385,16 @@ html, body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border-bottom: 0.0625rem white solid;
+        
     }
+
+        .contenedorDatosSobreMi {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
         .subtituloSobreMi {
             font-family: var(--fuenteLetra);
@@ -393,6 +403,9 @@ html, body {
             justify-content: center;
             align-items: center;
             padding: 2% 0% 2% 0%;
+            border-top: 0.0625rem white solid;
+            width: 100%;
+            border-bottom: 70px;
         }
 
         .parrafoImagen {
@@ -400,7 +413,7 @@ html, body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 75%;
+            width: 80%;
             gap: 1.875rem;
         }
 
@@ -467,8 +480,144 @@ html, body {
 
 /*-------------------------------------------------- @MEDIA QUERIES ----------------------------------------------------------------------*/
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+        height: 5%;
+        top: 0;
+        border-radius: 0;
+        border: 0;
+        background-color: black;
+    } 
+
+        .menuNavegacion {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            overflow: hidden;
+            gap: 2%;
+            justify-content: space-between;
+        }
+
+            .seccionPagina {
+                font-size: small;
+            }
+
     .main {
-        width: 600px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .presentacion {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+        .nombreTitulo {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .textoDesarrolladorBackend {
+            text-align: center;
+        }
+
+        .linksRedesSociales {
+            flex-direction: column;
+        }
+
+            .linksRedesSociales:hover {
+                transform: none;
+            }
+
+    .proyectos {
+        width: 100%;
+    }
+
+        .descripcionProyecto {
+            width: 100%;
+            height: 90%;
+        }
+
+        .contenedorImagenesProyecto {
+            border-radius: 20px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            overflow-x: scroll;
+        }
+
+        .contenedorImagenesProyecto::-webkit-scrollbar {
+            height: 5px;
+        }
+
+        .contenedorImagenesProyecto::-webkit-scrollbar-thumb {
+            background: white;
+            border-radius: 0.625rem;
+        }
+
+            .imagenProyecto {
+                min-width: 100%;
+                height: auto;
+            }
+
+                .imagenProyecto:hover {
+                    transform: none;
+                }
+
+            .linkProyectoGitHub {
+                margin-bottom: 20px;
+            }
+
+    .certificaciones {
+        width: 100%;
+        height: 440px;
+    }
+
+        .contenedorImagenesCertificaciones {
+            width: 80%;
+        }
+
+            .imagenCertificacion {
+                width: 40%;
+            }
+
+                .imagenCertificacion:hover {
+                    transform: none;
+                }
+
+    .sobreMi {
+        width: 100%;
+    }
+
+        .contenedorDatosSobreMi {
+            width: 100%;
+        }
+
+        .subtituloSobreMi {
+            width: 80%;
+        }
+
+        .imagenSobreMi {
+            width: 60%;
+            height: auto;
+        }
+
+        .parrafoSobreMi {
+            width: 100%;
+        }
+
+        .links {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+    .footer {
+        height: 70px;
     }
 }
