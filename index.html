@@ -7,36 +7,38 @@
         <meta name="author" content="Andres Bermudez">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Desarrollador Backend, portafolio!">
-        <title>Portfolio | Andres</title>
+        <title>Andrés Bermúdez</title>
         <link rel="icon" href="/images/perfil.png" type="image/x-icon">
         <link rel="stylesheet" href="./Styles/style.css">
     </head>
 
     <body>
         <header class="header">
+            <a class="nombreHeader" href="#top"><img src="./images/perfil.png" class="imagenHeader">Andrés Bermúdez</a>
+
             <nav class="menuNavegacion">
-                <a class="seccionPagina" href="#bienvenida">Inicio</a>
-                <a class="seccionPagina" href="#sobreMi">Perfil</a>
+                <a class="seccionPagina" href="#top">Inicio</a>
+                <a class="seccionPagina" href="#sobreMi">Sobre Mí</a>
                 <a class="seccionPagina" href="#proyectos">Proyectos</a>
                 <a class="seccionPagina" href="#certificaciones">Certificaciones</a>
             </nav>
+
+            <label class="menuHamburguesa" for="toggle">&#9776;</label>
         </header>
 
         <main class="main">
-            <div class="presentacion" id="bienvenida">
-                <div class="informacionInicio">
-                    <a class="imagenPerfilAnclaje" href="#sobreMi">
-                        <img src="./images/perfil.png" alt="Imagen de perfil" class="imagenPerfil">
-                    </a>
+            <div class="presentacion" id="Inicio">
+                <a class="imagenPerfilAnclaje" href="#sobreMi">
+                    <img src="./images/perfil.png" alt="Imagen de perfil" class="imagenPerfil">
+                </a>
 
-                    <h1 class="nombreTitulo">Andrés Bermúdez</h1>
-                    <h2 class="textoDesarrolladorBackend">Desarrollador BackEnd</h2>
+                <h1 class="nombreTitulo">Andrés Bermúdez</h1>
+                <h2 class="textoDesarrolladorBackend">Desarrollador BackEnd</h2>
 
-                    <div class="linksRedesSociales">
-                        <a class="linkGitHub"  href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="33" height="18">GitHub</a>
-                        <a class="linkLinkedIn" href="https://www.linkedin.com/in/andres-bermudez-dev"><img src="./images/iconLinkedIn.png" width="30" height="20">LinkedIn</a>
-                        <a class="linkCV" href=""><img src="./images/iconCV.png" alt="Icono de Documento" width="18" height="18">Curriculum</a>
-                    </div>
+                <div class="linksRedesSociales">
+                    <a class="linkGitHub"  href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="33" height="18">GitHub</a>
+                    <a class="linkLinkedIn" href="https://www.linkedin.com/in/andres-bermudez-dev"><img src="./images/iconLinkedIn.png" width="30" height="20">LinkedIn</a>
+                    <a class="linkCV" href=""><img src="./images/iconCV.png" alt="Icono de Documento" width="18" height="18">Curriculum</a>
                 </div>
             </div>
 
@@ -44,58 +46,87 @@
             <div class="proyectos" id="proyectos">
                 <h2 class="subtituloProyectos"><img src="./images/iconProyectos.png" alt="Icono de Maletin" width="30" height="30" style="padding: 7px;">Proyectos</h2>
 
-                <div class="contenedorProyectos">
-                    <div class="proyecto">
-                        <h3 class="subtituloProyecto">Formulario en Java Swing</h3>
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Formulario</h3>
 
-                        <p class="descripcionProyecto">Este es un formulario creado con Java Swing. Permite el registro de 
-                                                       datos y genera automáticamente un documento con la información 
-                                                       proporcionada por el usuario.</p>
+                    <p class="descripcionProyecto">Este formulario está diseñado para registrar datos y generar automáticamente un
+                                                   documento con la información proporcionada por el usuario. Está desarrollado
+                                                   utilizando Java Swing.</p>
 
-                        <div class="contenedorImagenesProyecto">   
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_interfazPrincipal.png">
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_interfazLlenado.png">
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_documentoGenerado.jpeg">
-                        </div>
-
-                        <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Formulario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                    <div class="contenedorImagenesProyecto">   
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_interfazPrincipal.png">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_interfazLlenado.png">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Formulario/formulario_documentoGenerado.png">
                     </div>
 
-                    <div class="proyecto">
-                        <h3 class="subtituloProyecto">Calculadora en Java Swing</h3>
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Formulario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
 
-                        <p class="descripcionProyecto">Esta es una calculadora con interfaz gráfica desarrollada en Java Swing.
-                                                       Permite realizar operaciones básicas y almacenarlas temporalmente en un 
-                                                       apartado independiente para que el usuario las observe mientras continúa 
-                                                       con otras operaciones. También incluye la opción de cambiar el color
-                                                       de fondo y una sección con información sobre el desarrollador.</p>
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Calculadora</h3>
 
-                        <div class="contenedorImagenesProyecto">
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/Calculadora_InterfazPrincipal.jpeg">
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/Calculadora_InterfazOperaciones.jpeg">
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/Calculadora_InterfazCambioFondo.jpeg">
-                        </div>
+                    <p class="descripcionProyecto">Esta calculadora con interfaz gráfica fue desarrollada en Java Swing. Permite
+                                                   realizar operaciones básicas y almacenarlas temporalmente en un historial 
+                                                   independiente para que el usuario las observe mientras continúa con otras 
+                                                   operaciones. Además, incluye la opción de cambiar el color de fondo y una 
+                                                   sección con información sobre el desarrollador.</p>
 
-                        <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Calculadora-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/calculadora_interfazPrincipal.png">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/calculadora_interfazOperaciones.png">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Calculadora/calculadora_interfazCambioFondo.png">
                     </div>
 
-                    <div class="proyecto">
-                        <h3 class="subtituloProyecto">Simulador Sistema Bancario</h3>
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Calculadora-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
 
-                        <p class="descripcionProyecto">Este es un simulador de un sistema bancario con funcionalidades de registro 
-                                                       e inicio de sesión de usuarios, consulta de saldo, depósito y retiro de dinero. 
-                                                       Incluye validación de datos antes de cada transacción y Al finalizar cada operación, 
-                                                       se genera una factura que incluye los datos del usuario, el monto retirado 
-                                                       y el saldo disponible.</p>
-                                                       
-                        <div class="contenedorImagenesProyecto">
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/Cajero_interfazPrincipal.jpeg">
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/Cajero_interfazInicioSesion.jpeg">
-                            <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/Cajero_interfazFinal.jpeg">
-                        </div>
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Simulador Sistema Bancario</h3>
 
-                        <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Sistema-Bancario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                    <p class="descripcionProyecto">Este es un simulador de sistema bancario que ofrece funcionalidades completas
+                                                   como registro e inicio de sesión de usuarios, consulta de saldo, depósito y 
+                                                   retiro de dinero. Cada transacción incluye validación de datos para garantizar 
+                                                   la seguridad. Al finalizar cada operación, se genera automáticamente una factura
+                                                   detallada que incluye los datos del usuario, el monto retirado y el saldo disponible.</p>
+                                                    
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/cajero_interfazPrincipal.png">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/cajero_interfazInicioSesion.png">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Cajero/cajero_interfazFinal.png">
                     </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Sistema-Bancario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Juego</h3>
+
+                    <p class="descripcionProyecto">Juego web realizado con HTML, CSS y JavaScript. Proyecto del 
+                                                   curso de programación basica de Platzi.</p>
+
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Juego/juegoPrincipal.png">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Juego/juegoInterfazCanvas.png">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Juego/juegoBatalla.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Juego-web-similar-a-Pokemon"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Encriptador de texto</h3>
+
+                    <p class="descripcionProyecto">Este proyecto es un encriptador de texto diseñado para transformar texto legible en 
+                                                   una forma codificada (texto cifrado), asegurando que no pueda ser entendido por 
+                                                   personas no autorizadas. Fue desarrollado como parte del primer Challenge del 
+                                                   programa ONE Oracle Next Education en Alura, utilizando HTML, CSS y JavaScript.
+                                                   <a href="https://andres-bermudez.github.io/Encriptador-de-texto/" style="color: rgb(87, 146, 185);">Visitar Sitio.</a></p>
+                                                    
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" src="./images/imagesProyectos/Encriptador/encriptadorTexto.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Encriptador-de-texto"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
                 </div>
             </div>
 
@@ -103,57 +134,63 @@
                 <h2 class="subtituloCertificaciones"><img src="./images/iconCertificado.png" alt="Icono de Certificado" width="30" height="30" style="padding-right: 7px;">Certificaciones</h2>
                 
                 <div class="contenedorImagenesCertificaciones">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/PooCoursera.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/introduccionJavaPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/fundamentosIngenieriaPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/programacionBasicaPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/dataAnalyticsCoursera.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/insigniaSenatec.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/principianteProgramacionAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/fundamentosPythonPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/entornoDesarrolloLinuxPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/entornoDesarrolloWindowsPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/lenguajesProgramacionPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/estructurasControlPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/diagramasFlujoPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/resolverProblemasCoursera.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/formacionLogicaProgramacionJavaScript.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/gitGitHubAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/logica2Alura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/logicaAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/HTMLCSS3Alura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/HTMLCSS2Alura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/HTMLCSS1Alura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/chatGPTAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/aprenderAprenderAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/habitosAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/focoAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/linkedinAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" src="./images/imagesCertifications/formacionDesarrolloPersonalAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoPOOJavaCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoIntroduccionJavaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoProgramacionBasicaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoFundamentosIngenieriaSoftwarePlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoGoogleDataAnalyticsCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/certificadoPrincipianteProgramacionG7ONEAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoPensamientoLogico1Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoPensamientoLogico2Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoPensamientoLogico3Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/certificadoLogicaProgramacionJavaScriptAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoLogicaProgramacion1Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoLogicaProgramacion2Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoFundamentosPythonPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoHTMLAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoHTMLCSS1Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoHTMLCSS2Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoEntornoDesarrolloLinuxPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoEntornoDesarrolloWindowsPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoGitHubAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoLinkedinAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoChatGPTAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/certificadoEncriptadorTextoAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/insigniaDigitalSenatecCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/insigniaPrincipianteProgramacionONE.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/certificadoDesarrolloPersonalG7Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoResolverProblemasCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoEmprendimientoJovenesPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoHabitosAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoFocoAlura.png" alt="Imagen de Certificado"> 
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoAprenderAprenderAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoBasicoExcelSena.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" src="./images/imagesCertifications/cursoEnglish1Sena.png" alt="Imagen de Certificado"> 
                 </div>
             </div>
 
             <div class="sobreMi" id="sobreMi">
-                <div class="contenedorDatosSobreMi">
+                <div class="tituloSobreMi">
                     <h2 class="subtituloSobreMi"><img src="./images/iconUser.png" width="30" height="30">Sobre mí</h2>
-                    
-                    <div class="parrafoImagen">
+                </div>
+
+                <div class="imagenDescripcionSobreMi">
+                    <div class="divImagenSobreMi">
                         <img class="imagenSobreMi" src="./images/perfil.png" alt="Imagen de Andres" width="150" height="150">
+                    </div>
 
-                        <p class="parrafoSobreMi">Hola, soy <span class="palabrasSignificativasSobreMi">Andrés</span>. Mi viaje en la <span class="palabrasSignificativasSobreMi">programación</span> comenzó a los 12 años,
-                                                cuando empecé a hacer modificaciones a <span class="palabrasSignificativasSobreMi">videojuegos</span>,
-                                                aunque en ese momento no sabía que estaba <span class="palabrasSignificativasSobreMi"></span>programando</span>. 
-                                                Actualmente, me dedico al <span class="palabrasSignificativasSobreMi">desarrollo backend.</span>
-                                                <br>
-                                                <br>Cuento con mas de un (1)año de experiencia en <span class="palabrasSignificativasSobreMi">programación.
-                                                </span> Estoy especializandome en <span class="palabrasSignificativasSobreMi">Java</span>
-                                                con <span class="palabrasSignificativasSobreMi">Spring Boot.</span> Estudiante de 
-                                                <span class="palabrasSignificativasSobreMi">Ingeniería de Software</span> en Bogotá, Colombia 🇨🇴. 
-                        </p>
-
-                        <div class="links">
-                            <a class="link" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="17" height="15">Andres201900@outlook.com</a>
-                            <a class="link" href="https://wa.me/3133740300"><img src="./images/iconWhatsapp.png" alt="Icono de Whatsapp" style="margin-right: 5px;" width="18" height="18">(+57) 313 374 0300</a>
+                    <div class="descripcionSobreMi">
+                        <div class="divPadreParrafoSobreMi">
+                            <p class="parrafoSobreMi">Hola, soy <span class="palabrasSignificativasSobreMi">Andrés</span>. Mi viaje en la <span class="palabrasSignificativasSobreMi">programación</span> comenzó a los 12 años,
+                                                    cuando empecé a hacer modificaciones a <span class="palabrasSignificativasSobreMi">videojuegos</span>,
+                                                    aunque en ese momento no sabía que estaba <span class="palabrasSignificativasSobreMi"></span>programando</span>. 
+                                                    Actualmente, me especializo en el <span class="palabrasSignificativasSobreMi">desarrollo backend.</span>
+                                                    <br>
+                                                    <br>Cuento con mas de un año de experiencia en en el campo.
+                                                    Estoy enfocado en perfeccionar mis habilidades en <span class="palabrasSignificativasSobreMi">Java</span>
+                                                    con <span class="palabrasSignificativasSobreMi">Spring Boot</span> y soy estudiante de 
+                                                    <span class="palabrasSignificativasSobreMi">Ingeniería de Software</span> en Bogotá, Colombia. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -161,6 +198,9 @@
         </main>
 
         <footer class="footer">
+            <a class="link" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="17" height="15">Andres201900@outlook.com</a>
+            <a class="link" href="https://wa.me/3133740300"><img src="./images/iconWhatsapp.png" alt="Icono de Whatsapp" style="margin-right: 5px;" width="18" height="18">(+57) 313 374 0300</a>
+        
             <p class="copryrigth">© 2024 Andrés Bermúdez.</p>
         </footer>
     </body>
