@@ -16,14 +16,25 @@
         <header class="header">
             <a class="nombreHeader" href="#top"><img src="./images/perfil.png" class="imagenHeader">Andrés Bermúdez</a>
 
-            <nav class="menuNavegacion">
-                <a class="seccionPagina" href="#top">Inicio</a>
-                <a class="seccionPagina" href="#sobreMi">Sobre Mí</a>
-                <a class="seccionPagina" href="#proyectos">Proyectos</a>
-                <a class="seccionPagina" href="#certificaciones">Certificaciones</a>
-            </nav>
+            <a class="menuHamburguesa" id="menuHamburguesa"><img src="./images/menuHamburguesa.png"></a>
 
-            <label class="menuHamburguesa" for="toggle">&#9776;</label>
+            <nav class="menuNavegacion" id="menuNavegacion">
+                <div  class="divCerrarMenu">
+                    <img  class="cerrarMenu" id="cerrarMenu" src="./images/iconCerrar.png">
+                </div>
+
+                <a class="seccionPagina" id="seccionInicio" href="#top">Inicio</a>
+                <a class="seccionPagina" id="seccionSobreMi" href="#sobreMi">Sobre Mí</a>
+                <a class="seccionPagina" id="seccionProyectos" href="#proyectos">Proyectos</a>
+                <a class="seccionPagina" id="seccionCertificaciones" href="#certificaciones">Certificaciones</a>
+
+                <div class="divLinksContacto">
+                    <a class="linkContacto"  href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="41" height="24"></a>
+                    <a class="linkContacto" href="https://www.linkedin.com/in/andres-bermudez-dev"><img src="./images/iconLinkedIn.png" width="38" height="25"></a>
+                    <a class="linkCOntacto" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="25" height="22"></a>
+                    <a class="linkContacto" href="https://wa.me/3133740300"><img src="./images/iconWhatsapp.png" alt="Icono de Whatsapp" style="margin-right:5px;" width="25" height="25"></a>
+                </div>
+            </nav>
         </header>
 
         <main class="main">
@@ -203,5 +214,7 @@
         
             <p class="copryrigth">© 2024 Andrés Bermúdez.</p>
         </footer>
+
+        <script src="./script.js"></script>
     </body>
 </html> 
