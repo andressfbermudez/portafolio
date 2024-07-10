@@ -1,32 +1,26 @@
 let menuHamburguesa = document.getElementById("menuHamburguesa");
-let menuNavegacion = document.getElementById("menuNavegacion");
+let menuNavegacionMovil = document.getElementById("menuNavegacionMovil");
 let cerrarMenu = document.getElementById("cerrarMenu");
 let imagen = document.querySelectorAll("#imagen");
-
-/*
-let seccionInicio = document.getElementById("seccionInicio");
-let seccionSobreMi = document.getElementById("seccionSobreMi");
-let seccionProyectos = document.getElementById("seccionProyectos");                 // Zona de conflicto: por corregir
-let seccionCertificaciones = document.getElementById("seccionCertificaciones");
-*/
+let seccionInicioMovil = document.getElementById("seccionInicioMovil");
+let seccionSobreMiMovil = document.getElementById("seccionSobreMiMovil");
+let seccionProyectosMovil = document.getElementById("seccionProyectosMovil");                 
+let seccionCertificacionesMovil = document.getElementById("seccionCertificacionesMovil");
 
 function desplegarMenuNavegacion() {
-    menuNavegacion.style.display = "flex";
+    menuNavegacionMovil.style.display = "flex";
 }
 
 function cerrarMenuNavegacion() {
-    menuNavegacion.style.display = "none";
+    menuNavegacionMovil.style.display = "none";
 }
 
+seccionInicioMovil.addEventListener("click", cerrarMenuNavegacion);
+seccionSobreMiMovil.addEventListener("click", cerrarMenuNavegacion);
+seccionProyectosMovil.addEventListener("click", cerrarMenuNavegacion);                
+seccionCertificacionesMovil.addEventListener("click", cerrarMenuNavegacion);
 menuHamburguesa.addEventListener("click", desplegarMenuNavegacion);
 cerrarMenu.addEventListener("click", cerrarMenuNavegacion)
-
-/*
-seccionInicio.addEventListener("click", cerrarMenuNavegacion);
-seccionSobreMi.addEventListener("click", cerrarMenuNavegacion);
-seccionProyectos.addEventListener("click", cerrarMenuNavegacion);                // Zona de conflicto: Por corregir
-seccionCertificaciones.addEventListener("click", cerrarMenuNavegacion);
-*/
 
 // API para abrir imagenes en pantalla completa
 imagen.forEach(img => {
