@@ -5,7 +5,7 @@
 ## Estado del proyecto: 
 :construction: Proyecto en Construcción... :construction:
 
-Versión 1.1.0
+Versión 1.2.0
 
 ## Tecnologías utilizadas: 
 HTML, CSS y JavaScript
