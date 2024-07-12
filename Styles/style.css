@@ -140,6 +140,7 @@ html, body {
             font-family: sans-serif;
             font-size: 4rem;
             font-weight: 900;
+            margin-bottom: 1rem;
         }
 
         .textoDesarrolladorBackend {
@@ -147,8 +148,31 @@ html, body {
             font-size: 1.875rem;
             font-weight: 700;
             color: rgb(192, 104, 53);
-            margin-bottom: 1.875rem;
+            margin-bottom: 1rem;
         }
+
+        .divTecnologias {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35rem;
+        }
+
+            .tecnologias {
+                width: 25%;
+                font-size: 1rem;
+                font-weight: 600;
+                color: rgb(40, 90, 15);
+                margin-bottom: 2rem;
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                gap: 0.3rem;
+                border-right: 1px black solid;
+            }
+                #tecJava {
+                    border-left: 1px black solid;
+                }
 
     .linksRedesSociales {
         display: flex;
@@ -370,7 +394,7 @@ html, body {
         }
 
             .contenedorImagenesCertificaciones::-webkit-scrollbar-thumb {
-                background: white;
+                background: rgb(0, 0, 0);
                 border-radius: 0.625rem;
             }
 
@@ -593,6 +617,12 @@ html, body {
         .textoDesarrolladorBackend {
             text-align: center;
         }
+        .divTecnologias {
+            width: 100%;
+        }
+            .tecnologias {
+                font-size: 0.8rem;
+            }
         .linksRedesSociales {
             flex-direction: column;
             gap: 20px;
@@ -629,12 +659,13 @@ html, body {
             height: 5px;
         }
         .contenedorImagenesProyecto::-webkit-scrollbar-thumb {
-            background: white;
+            background: rgb(0, 0, 0);
             border-radius: 0.625rem;
         }
             .imagenProyecto {
                 min-width: 100%;
                 height: auto;
+                margin-bottom: 0.7rem;
             }
                 .imagenProyecto:hover {
                     transform: none;
