@@ -10,9 +10,9 @@
 }
 
 html, body {
-    background:rgb(255, 255, 255);
+    background:rgb(26, 47, 53);
     box-sizing: border-box;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     cursor: default;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ html, body {
         align-items: center;
         justify-content: center;
         margin: 8rem 0rem 0rem 0rem;
-        border-bottom: 1px rgb(0, 0, 0) solid;
+        border-bottom: 1px rgb(255, 255, 255) solid;
     }
 
         .imagenPerfil { 
@@ -158,16 +158,16 @@ html, body {
                 width: 25%;
                 font-size: 1rem;
                 font-weight: 600;
-                color: rgb(40, 90, 15);
+                color: rgb(255, 255, 255);
                 margin-bottom: 2rem;
                 display: flex; 
                 justify-content: center;
                 align-items: center;
                 gap: 0.3rem;
-                border-right: 1px black solid;
+                border-right: 1px rgb(255, 255, 255) solid;
             }
                 #tecJava {
-                    border-left: 1px black solid;
+                    border-left: 1px rgb(255, 255, 255) solid;
                 }
 
     .linksRedesSociales {
@@ -279,7 +279,7 @@ html, body {
             .proyecto {
                 width: 100%;
                 height: auto;
-                border-bottom: 0.0625rem rgb(0, 0, 0) solid;
+                border-bottom: 0.0625rem rgb(255, 255, 255) solid;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -390,7 +390,7 @@ html, body {
         }
 
             .contenedorImagenesCertificaciones::-webkit-scrollbar-thumb {
-                background: rgb(0, 0, 0);
+                background: rgb(255, 255, 255);
                 border-radius: 0.625rem;
             }
 
@@ -416,8 +416,8 @@ html, body {
         align-items: center;
         justify-content: center;
         margin: 3rem 0 1rem 0;
-        border-top: 1px rgb(0, 0, 0) solid;
-        border-bottom: 1px black solid;
+        border-top: 1px rgb(255, 255, 255) solid;
+        border-bottom: 1px rgb(255, 255, 255) solid;
     }
 
         .subtituloSobreMi {
@@ -501,7 +501,7 @@ html, body {
         display: flex;
         align-items: center;
         margin: 0.3rem;
-        color: black;
+        color: rgb(255, 255, 255);
     }
 
         .link:hover {
@@ -657,7 +657,7 @@ html, body {
             height: 5px;
         }
         .contenedorImagenesProyecto::-webkit-scrollbar-thumb {
-            background: rgb(0, 0, 0);
+            background: rgb(255, 255, 255);
             border-radius: 0.625rem;
         }
             .imagenProyecto {
