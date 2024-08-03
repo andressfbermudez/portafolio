@@ -314,7 +314,7 @@ html, body {
                 .imagenProyecto {
                     width: 30%;
                     height: auto;
-                    border-radius: 1.5rem;
+                    border-radius: 0.5rem;
                     transition: 0.4s;
                 }
 
