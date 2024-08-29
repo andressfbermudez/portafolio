@@ -70,51 +70,54 @@
             
             <div class="proyectos" id="proyectos">
                 <h2 class="subtituloProyectos"><img src="./images/iconProjects.png" alt="Icono de Maletin" width="30" height="30" style="padding: 7px;">Proyectos</h2>
-
-                <div class="proyecto">
-                    <h3 class="subtituloProyecto">Formulario</h3>
-
-                    <p class="descripcionProyecto">Este formulario está diseñado para registrar datos y generar automáticamente un
-                                                   documento con la información proporcionada por el usuario. Está desarrollado
-                                                   utilizando Java Swing.</p>
-
-                    <div class="contenedorImagenesProyecto">   
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_interfazPrincipal.png">
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_interfazLlenado.png">
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_documentoGenerado.png">
-                    </div>
-
-                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Formulario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
-                </div>
-
+                
                 <div class="proyecto">
                     <h3 class="subtituloProyecto">Agenda de Contactos</h3>
 
-                    <p class="descripcionProyecto">Esta es una agenda de contactos desarrollada en Java, utilizando programación orientada a objetos. 
+                    <p class="descripcionProyecto">Esta es una agenda de contactos desarrollada en Java con Maven, utilizando programación orientada a objetos y con conexion
+                                                   a MySQL con las cuatro(4) funciones basicas de la persistencia de datos. 
+                                                   <br>
+                                                   <br>
                                                    Entre sus funcionalidades destacan:
                                                    <br>
                                                    <br>
-                                                   Agregar contactos: Permite añadir nuevos contactos a la agenda.
+                                                   CREAR CONTACTOS: Permite añadir nuevos contactos a la agenda.
                                                    <br>
                                                    <br>
-                                                   Buscar contactos: Facilita la localización de contactos específicos.
+                                                   VISUALIZAR TUS CONTACTOS: Muestra una lista completa de todos los contactos almacenados.
                                                    <br>
                                                    <br>
-                                                   Modificar contactos: Ofrece la posibilidad de actualizar la información de un contacto existente.
+                                                   ACTUALIZAR TUS CONTACTOS: Ofrece la posibilidad de actualizar la información de un contacto existente.
                                                    <br>
                                                    <br>
-                                                   Eliminar contactos: Permite borrar contactos de la agenda.
-                                                   <br>
-                                                   <br>
-                                                   Visualizar todos los contactos: Muestra una lista completa de todos los contactos almacenados.</p>
-
+                                                   ELIMINAR CONTACTOS: Permite borrar contactos de la agenda.
+                    </p>
+                                                   
                     <div class="contenedorImagenesProyecto">   
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/agregarContacto.png">
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/buscarContacto.png">
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/borrarContacto.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/createContact.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/showContacts.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/deleteContact.png">
                     </div>
 
-                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Agenda-de-Contactos"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Contacts-List-MySQL"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Simulador Cajero Automatico</h3>
+
+                    <p class="descripcionProyecto">Este es un simulador de un cajero automatico que ofrece funcionalidades completas
+                                                   como registro e inicio de sesión de usuarios, consulta de saldo, depósito y 
+                                                   retiro de dinero. <br><br>Cada transacción incluye validación de datos para garantizar 
+                                                   la seguridad. Al finalizar cada operación, se genera automáticamente una factura
+                                                   detallada que incluye los datos del usuario, el monto retirado y el saldo disponible.</p>
+                                                    
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazRegistroUsuario.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazRetiro.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazTransaccionFinalizada.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Sistema-Bancario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
                 </div>
 
                 <div class="proyecto">
@@ -135,21 +138,19 @@
                 </div>
 
                 <div class="proyecto">
-                    <h3 class="subtituloProyecto">Simulador Cajero Automatico</h3>
+                    <h3 class="subtituloProyecto">Formulario</h3>
 
-                    <p class="descripcionProyecto">Este es un simulador de un cajero automatico que ofrece funcionalidades completas
-                                                   como registro e inicio de sesión de usuarios, consulta de saldo, depósito y 
-                                                   retiro de dinero. <br><br>Cada transacción incluye validación de datos para garantizar 
-                                                   la seguridad. Al finalizar cada operación, se genera automáticamente una factura
-                                                   detallada que incluye los datos del usuario, el monto retirado y el saldo disponible.</p>
-                                                    
-                    <div class="contenedorImagenesProyecto">
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazRegistroUsuario.png">
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazRetiro.png">
-                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazTransaccionFinalizada.png">
+                    <p class="descripcionProyecto">Este formulario está diseñado para registrar datos y generar automáticamente un
+                                                   documento con la información proporcionada por el usuario. Está desarrollado
+                                                   utilizando Java Swing.</p>
+
+                    <div class="contenedorImagenesProyecto">   
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_interfazPrincipal.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_interfazLlenado.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_documentoGenerado.png">
                     </div>
 
-                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Sistema-Bancario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Formulario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
                 </div>
 
                 <div class="proyecto">
