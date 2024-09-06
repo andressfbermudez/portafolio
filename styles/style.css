@@ -125,11 +125,19 @@ html, body {
     }
 
         .imagenPerfil { 
-            width: 8rem;
-            height: 8rem;
+            width: 9rem;
+            height: 9rem;
             border-radius: 100%;
             box-shadow: 0rem 0rem 0.5rem black;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .lema {
+            color: rgb(42, 139, 42);
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin: 1.5rem ;
         }
 
         .nombreTitulo {
