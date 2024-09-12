@@ -1,10 +1,6 @@
 # ¡Bienvenido a mi Portafolio!
 
-[Visita mi portafolio en este link](https://portafolio-andres-bermudez.vercel.app/)
-
-## Estado del proyecto: 
-:construction: Proyecto en Construcción... :construction:
-Versión 1.2.0
+[Visita mi portafolio en este link](https://www.andresfbermudez.com)
 
 ## Tecnologías utilizadas: 
 HTML, CSS y JavaScript
