@@ -14,66 +14,160 @@
 
     <body>
         <header class="header">
-            <a class="nombreHeader" href="#top"><img src="./images/perfil.png" class="imagenHeader">Andrés Bermúdez</a>
-
             <!-- Menu de navegacion para la version movil -->
-            <a class="menuHamburguesa" id="menuHamburguesa"><img src="./images/menuHamburguesa.png"></a>
-
-            <nav class="menuNavegacionPC" id="menuNavegacionPC">
-                <a class="seccionPaginaPC" id="seccionInicioPC" href="#top">Inicio</a>
-                <a class="seccionPaginaPC" id="seccionSobreMiPC" href="#sobreMi">Sobre Mí</a>
-                <a class="seccionPaginaPC" id="seccionProyectosPC" href="#proyectos">Proyectos</a>
-                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#certificaciones">Certificaciones</a>
-            </nav>
-
-            <!-- Menu de navegacion para la version Desktop -->
-            <nav class="menuNavegacionMovil" id="menuNavegacionMovil">
-                <div  class="divCerrarMenu">
+                <div  class="divCerrarMenu"></div>
                     <img  class="cerrarMenu" id="cerrarMenu" src="./images/iconCerrar.png">
                 </div>
 
-                <a class="seccionPaginaMovil" id="seccionInicioMovil" href="#top">Inicio</a>
-                <a class="seccionPaginaMovil" id="seccionSobreMiMovil" href="#sobreMi">Sobre Mí</a>
-                <a class="seccionPaginaMovil" id="seccionProyectosMovil" href="#proyectos">Proyectos</a>
-                <a class="seccionPaginaMovil" id="seccionCertificacionesMovil" href="#certificaciones">Certificaciones</a>
+            <a class="menuHamburguesa" id="menuHamburguesa"><img src="./images/menuHamburguesa.png"></a>
 
-                <div class="divLinksContacto">
-                    <a class="linkContacto" href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="41" height="24"></a>
-                    <a class="linkContacto" href="https://www.linkedin.com/in/andres-bermudez-dev"><img src="./images/iconLinkedIn.png" width="38" height="25"></a>
-                    <a class="linkCOntacto" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="25" height="22"></a>
-                </div>
+            <nav class="menuNavegacionMovil" id="menuNavegacionMovil">
+                <a class="seccionPaginaPC" id="seccionSobreMiPC" href="#acercaDe">Acerca de</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#habilidades">Habilidades</a>
+                <a class="seccionPaginaPC" id="seccionProyectosPC" href="#proyectos">Proyectos</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#certificaciones">Educación</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#certificaciones">Certificaciones</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#certificaciones">Contacto</a>
             </nav>
-        </header>
 
-        <main class="main">
-            <div class="presentacion" id="Inicio">
+            <div class="presentacion" id="Inicio"></div>
                 <a class="imagenPerfilAnclaje" href="#sobreMi">
                     <img src="./images/perfil.png" alt="Imagen de perfil" class="imagenPerfil">
                 </a>
 
-                <h2 class="lema">"Si no existe, créalo; Si ya existe, mejóralo"</h2>
-
                 <h1 class="nombreTitulo">Andrés Bermúdez</h1>
-                <h2 class="textoDesarrolladorBackend">Desarrollador BackEnd</h2>
+                <h2 class="textoDesarrolladorBackend">Desarrollador Backend</h2>
+            </div>
 
-                <div class="divTecnologias">
-                    <h3 class="tecnologias" id="tecJava"><img src="./images/iconJava.png" width="36" height="43"> Java</h3>
-                    <h3 class="tecnologias"><img src="./images/iconPython.png" width="35" height="35"> Python</h3>
-                    <!--<h3 class="tecnologias"><img src="./images/iconSpringBoot.png" width="30" height="30"> Spring Boot</h3>-->
-                    <h3 class="tecnologias"><img src="./images/iconSQL.png" width="23" height="25"> SQL</h3>
-                    <h3 class="tecnologias"><img src="./images/iconLinux.png" width="30" height="30"> Linux</h3>
-                </div> 
+            <!-- Menu de navegacion para la version Desktop -->
+            <nav class="menuNavegacionPC" id="menuNavegacionPC">
+                <a class="seccionPaginaPC" id="seccionSobreMiPC" href="#acercaDe">Acerca de</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#habilidades">Habilidades</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#educacion">Educación</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#certificaciones">Certificaciones</a>
+                <a class="seccionPaginaPC" id="seccionProyectosPC" href="#proyectos">Proyectos</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#contacto">Contacto</a>
+            </nav>
+        </header>
 
-                <div class="linksRedesSociales">
-                    <a class="linkGitHub"  href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="33" height="18">GitHub</a>
-                    <a class="linkLinkedIn" href="https://www.linkedin.com/in/andres-bermudez-dev"><img src="./images/iconLinkedIn.png" width="30" height="20">LinkedIn</a>
+        <main class="main">
+            <div class="acercaDe" id="acercaDe"></div>
+                <div class="titulo">
+                    <h2 class="subtitulo"><img src="./images/iconUser.png" width="30" height="30">Acerca de mí</h2>
+                </div>
+
+                <div class="descripcionSobreMi">
+                    <p class="parrafoSobreMi">Hola, soy Andrés un apasionado <span class="resaltarPalabras">desarrollador backend</span> con experiencia en la creación 
+                        de <span class="resaltarPalabras">aplicaciones web y de escritorio</span>.
+                        
+                        <br><br>Me especializo en tecnologías como <span class="resaltarPalabras">Java</span> 
+                        ,<span class="resaltarPalabras"> Python</span>, bases de datos 
+                        relacionales (<span class="resaltarPalabras">SQL</span>) y <span class="resaltarPalabras">Linux</span>. Además, poseo conocimientos en 
+                        <span class="resaltarPalabras">desarrollo frontend</span>, utilizando tecnologías como 
+                        <span class="resaltarPalabras">HTML, CSS y JavaScript.</span><br>
+                        
+                        <br>Actualmente soy estudiante de <span class="resaltarPalabras">Ingeniería de Software</span> 
+                        en la facultad de Ingenieria, Diseño e Innovacion del <span class="resaltarPalabras">Politecnico Grancolombiano</span>
+                        y soy alumno del programa <span class="resaltarPalabras">ONE Oracle Next 
+                        Education</span> y estoy comprometido con el aprendizaje continuo y la excelencia 
+                        en el <span class="resaltarPalabras">desarrollo de software.</span>
+                    </p>
                 </div>
             </div>
 
+            <div class="habilidades" id="habilidades">
+                <div class="titulo">
+                    <h2 class="subtitulo"><img src="./images/iconUser.png" width="30" height="30">Habilidades</h2>
+                </div>
+                
+                <div class="conocimientos">
+                    <div class="especialista">
+                        <ul class="listaTecnologias">
+                            <li class="tecnologia">Java SE</li>
+                            <li class="tecnologia">Maven</li>
+                            <li class="tecnologia">Spring</li>
+                            <li class="tecnologia">RESTful APIs</li>
+                            <li class="tecnologia">MySQL</li>
+                            <li class="tecnologia">PosgreSQL</li>
+                            <li class="tecnologia">MSSQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="generalista">
+                        <ul class="listaTecnologias">
+                            <li class="tecnologia">Sistemas Operativos (Linux - Windows)</li>
+                            <li class="tecnologia">Redes Informaticas</li>
+                            <li class="tecnologia">Python</li>
+                            <li class="tecnologia">HTML/CSS</li>
+                            <li class="tecnologia">JavaScript</li>
+                            <li class="tecnologia">Git y GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="educacion" id="educacion">
+                <div class="titulo">
+                    <h2 class="subtitulo"><img src="./images/iconUser.png" width="30" height="30">Educación</h2>
+                </div>
+
+                <ul class="listaEducacion"></ul>
+                    <li class="institucion">Politecnico Grancolombiano (<span class="resaltarPalabras"> Ingenieria de Software </span>)</li>
+                    <li class="institucion">Platzi (<span class="resaltarPalabras"> Desarrollo de software - Sistemas operativos - Bases de datos - Redes </span>)</li>
+                    <li class="institucion">Coursera (<span class="resaltarPalabras"> Desarrollo de software - Sistemas operativos - Redes </span>)</li>
+                    <li class="institucion">Alura (<span class="resaltarPalabras"> Java SE - HTML - CSS - JavaScript - Desarrollo personal </span>)</li>
+                    <li class="institucion">Autodidacta (Otros)</li>
+                </ul>
+            </div>
+
+            <div class="certificaciones" id="certificaciones">                
+                <div class="titulo">
+                    <h2 class="subtitulo"><img src="./images/iconCertificates.png" alt="Icono de Certificado" width="30" height="30" style="padding-right: 7px;">Certificaciones</h2>
+                </div>
+
+                <div class="contenedorImagenesCertificaciones">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPythonEntornosVirtuales.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoIntroduccionBackendPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPythonComprenhensionsPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoIntroduccionRedesPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoFundamentosBasesDatosPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPythonPlatzi.jpeg" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPOOJavaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPOOJavaCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoKotlin.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoFundamentosPythonPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoIntroduccionJavaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoLinuxSQLCoursera.png" alt="Imegen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoTerminalPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoProgramacionBasicaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoFundamentosIngenieriaSoftwarePlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoMetodologiaAgileAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoGoogleDataAnalyticsCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/insigniaDigitalSenatecCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/carreraPreWorkPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/certificadoPrincipianteProgramacionG7ONEAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico1Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico2Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico3Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/certificadoLogicaProgramacionJavaScriptAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoLogicaProgramacion1Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoLogicaProgramacion2Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLCSS1Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLCSS2Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoEntornoDesarrolloLinuxPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoEntornoDesarrolloWindowsPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHistoriaProgramacionPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoGitHubAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoChatGPTAlura.png" alt="Imagen de Certificado">
+                </div>
+            </div>
             
             <div class="proyectos" id="proyectos">
-                <h2 class="subtituloProyectos"><img src="./images/iconProjects.png" alt="Icono de Maletin" width="30" height="30" style="padding: 7px;">Proyectos</h2>
-                
+                <div class="titulo">
+                    <h2 class="subtitulo"><img src="./images/iconProjects.png" alt="Icono de Maletin" width="30" height="30" style="padding: 7px;">Proyectos</h2>
+                </div>
+
                 <div class="proyecto">
                     <h3 class="subtituloProyecto">Agenda de Contactos</h3>
 
@@ -187,89 +281,23 @@
                     <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Encriptador-de-texto"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
                 </div>
             </div>
-
-            <div class="certificaciones" id="certificaciones">
-                <h2 class="subtituloCertificaciones"><img src="./images/iconCertificates.png" alt="Icono de Certificado" width="30" height="30" style="padding-right: 7px;">Certificaciones</h2>
-                
-                <div class="contenedorImagenesCertificaciones">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPythonComprenhensionsPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoIntroduccionRedesPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoFundamentosBasesDatosPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPythonPlatzi.jpeg" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPOOJavaPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPOOJavaCoursera.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoKotlin.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoFundamentosPythonPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoIntroduccionJavaPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoLinuxSQLCoursera.png" alt="Imegen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoTerminalPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoProgramacionBasicaPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoFundamentosIngenieriaSoftwarePlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoGoogleDataAnalyticsCoursera.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/insigniaDigitalSenatecCoursera.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/carreraPreWorkPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/certificadoPrincipianteProgramacionG7ONEAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico1Platzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico2Platzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico3Platzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/certificadoLogicaProgramacionJavaScriptAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoLogicaProgramacion1Alura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoLogicaProgramacion2Alura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLCSS1Alura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLCSS2Alura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoEntornoDesarrolloLinuxPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoEntornoDesarrolloWindowsPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHistoriaProgramacionPlatzi.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoGitHubAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoChatGPTAlura.png" alt="Imagen de Certificado">
-                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/certificadoEncriptadorTextoAlura.png" alt="Imagen de Certificado">
-                </div>
-            </div>
-
-            <div class="sobreMi" id="sobreMi">
-                <div class="tituloSobreMi">
-                    <h2 class="subtituloSobreMi"><img src="./images/iconUser.png" width="30" height="30">Sobre mí</h2>
-                </div>
-
-                <div class="imagenDescripcionSobreMi">
-                    <div class="divImagenSobreMi">
-                        <img class="imagenSobreMi" src="./images/perfil.png" alt="Imagen de Andres" width="150" height="150">
-                    </div>
-
-                    <div class="descripcionSobreMi">
-                        <div class="divPadreParrafoSobreMi">
-                            <p class="parrafoSobreMi">Hola, soy <span class="resaltarPalabras">Andrés</span>!<br>
-
-                                <br>Mi interés en la <span class="resaltarPalabras">programación</span> comenzó a los
-                                12 años, cuando empecé a modificar <span class="resaltarPalabras">videojuegos</span>,
-                                sin saber que en realidad estaba <span class="resaltarPalabras">programando.</span> 
-                                Me dedico principalmente al <span class="resaltarPalabras">
-                                desarrollo backend</span>, con más de un año de experiencia en el campo.<br>
-                                
-                                <br>Me especializo en tecnologías como <span class="resaltarPalabras">Java</span> 
-                                ,<span class="resaltarPalabras"> Python</span>, bases de datos 
-                                relacionales (<span class="resaltarPalabras">SQL</span>) y <span class="resaltarPalabras">Linux</span>. Además, poseo conocimientos en 
-                                <span class="resaltarPalabras">desarrollo frontend</span>, utilizando tecnologías como 
-                                <span class="resaltarPalabras">HTML, CSS y JavaScript.</span><br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <p class="parrafoSobreMi"> Actualmente soy estudiante de <span class="resaltarPalabras">Ingeniería de Software</span> 
-                    en la facultad de Ingenieria, Diseño e Innovacion del <span class="resaltarPalabras">Politecnico Grancolombiano</span>
-                    y soy alumno del programa <span class="resaltarPalabras">ONE Oracle Next 
-                    Education</span> y estoy comprometido con el aprendizaje continuo y la excelencia 
-                    en el <span class="resaltarPalabras">desarrollo de software.</span>
-                </p>
-            </div>
         </main>
 
         <footer class="footer">
-            <h2 class="contacto">Contacto</h2>
+            <h2 class="contacto" id="contacto">Contacto</h2>
             <a class="link" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="17" height="15">Andres201900@outlook.com</a>
-        
+
+            <div class="divLinksContacto"></div>
+                    <a class="linkContacto" href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="41" height="24"></a>
+                    <a class="linkContacto" href="https://www.linkedin.com/in/andresfbermudez-in"><img src="./images/iconLinkedIn.png" width="38" height="25"></a>
+                    <a class="linkContacto" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="25" height="22"></a>
+            </div>
+
+            <div class="linksRedesSociales"></div>
+                <a class="linkGitHub"  href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="33" height="18">GitHub</a>
+                <a class="linkLinkedIn" href="https://www.linkedin.com/in/andresfbermudez-in"><img src="./images/iconLinkedIn.png" width="30" height="20">LinkedIn</a>
+            </div>
+
             <p class="copryrigth">© 2024 Andrés Bermúdez.</p>
         </footer>
 
