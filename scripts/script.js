@@ -20,7 +20,7 @@ seccionSobreMiMovil.addEventListener("click", cerrarMenuNavegacion);
 seccionProyectosMovil.addEventListener("click", cerrarMenuNavegacion);                
 seccionCertificacionesMovil.addEventListener("click", cerrarMenuNavegacion);
 menuHamburguesa.addEventListener("click", desplegarMenuNavegacion);
-cerrarMenu.addEventListener("click", cerrarMenuNavegacion)
+cerrarMenu.addEventListener("click", cerrarMenuNavegacion);
 
 // API para abrir imagenes en pantalla completa
 imagen.forEach(img => {
