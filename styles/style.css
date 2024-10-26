@@ -31,7 +31,6 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*position: fixed;*/
     z-index: 1000;
 }
 .menuNavegacionPC {
@@ -126,9 +125,9 @@ html, body {
         align-items: center;
         justify-content: center;
 
-        padding: 0px 20px 30px 20px; /* Espaciado interno */
-        border-radius: 8px; /* Bordes redondeados */
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        padding: 0px 20px 30px 20px; 
+        border-radius: 8px; 
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
         width: 100%;
         background-color: #282828;
         margin-top: 2rem;
@@ -195,9 +194,9 @@ html, body {
 .habilidades {
     width: 100%;
     border-radius: 12px;
-    padding: 0px 20px 30px 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 0px 20px 30px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     width: 100%;
     background-color: #282828;
     margin-top: 2rem;
@@ -249,10 +248,10 @@ html, body {
         }  
 
 .educacion {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     width: 100%;
-    padding: 0px 20px 30px 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
+    padding: 0px 20px 30px 20px; 
+    border-radius: 8px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     background-color: #282828;
     margin-top: 2rem;
@@ -278,9 +277,9 @@ html, body {
         flex-direction: column;
         align-items: center;
 
-        padding: 0px 20px 30px 20px; /* Espaciado interno */
-        border-radius: 8px; /* Bordes redondeados */
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        padding: 0px 20px 30px 20px;
+        border-radius: 8px; 
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
         width: 100%;
         background-color: #282828;
         margin: 2rem 0 2rem 0;
@@ -324,74 +323,69 @@ html, body {
             }       
 
 .proyectos {
-    padding: 0px 20px 0px 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 0px 20px 0px 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     width: 100%;
     background-color: #282828;
-    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .proyecto {
-    padding: 30px 20px 30px 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 30px 20px 30px 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     width: 95%;
     background-color: #161616;
     margin-bottom: 2rem;
 }
-/* Módulo de Título del Proyecto */
     .subtituloProyecto {
-        font-size: 28px; /* Tamaño de fuente */
-        color: #ffffff; /* Color del texto */
-        margin-bottom: 15px; /* Espaciado inferior */
-        border-bottom: 2px solid #ffffff; /* Línea inferior */
-        padding-bottom: 10px; /* Espaciado interno inferior */
+        font-size: 28px; 
+        color: #ffffff; 
+        margin-bottom: 15px; 
+        border-bottom: 2px solid #ffffff; 
+        padding-bottom: 10px; 
     }
-    /* Módulo de Descripción del Proyecto */
     .descripcionProyecto {
         font-family: var(--fuenteLetra);
         font-size: 1rem;
-        color: #ffffff; /* Color del texto */
-        line-height: 1.5; /* Interlineado */
-        margin-bottom: 20px; /* Espaciado inferior */
+        color: #ffffff; 
+        line-height: 1.5; 
+        margin-bottom: 20px; 
     }
-    /* Módulo de Contenedor de Imágenes */
     .contenedorImagenesProyecto {
-        display: flex; /* Flexbox para alinear imágenes */
-        justify-content: space-between; /* Espacio entre imágenes */
-        flex-wrap: wrap; /* Permitir que las imágenes se ajusten */
-        margin-bottom: 20px; /* Espaciado inferior */
+        display: flex; 
+        justify-content: space-between; 
+        flex-wrap: wrap; 
+        margin-bottom: 20px; 
     }
     .imagenProyecto {
-        max-width: 30%; /* Ancho máximo de cada imagen */
-        border-radius: 4px; /* Bordes redondeados en las imágenes */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra en las imágenes */
+        max-width: 30%; 
+        border-radius: 4px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     }
-    /* Módulo de Enlace a GitHub */
     .linkProyectoGitHub {
-        display: flex; /* Flexbox para alinear imagen y texto */
-        align-items: center; /* Alinear verticalmente */
-        text-decoration: none; /* Sin subrayado */
-        color: #ffffff; /* Color del texto */
-        font-weight: bold; /* Texto en negrita */
-        transition: color 0.3s; /* Transición suave para hover */
+        display: flex; 
+        align-items: center; 
+        text-decoration: none; 
+        color: #ffffff; 
+        font-weight: bold; 
+        transition: color 0.3s; 
     }
     .linkProyectoGitHub:hover {
         color: #218838;
     }
     .linkProyectoGitHub img {
-        margin-right: 5px; /* Espacio entre el ícono y el texto */
+        margin-right: 5px; 
     }
 
 .contacto {      
         width: 100%;
-        padding: 0px 20px 30px 20px; /* Espaciado interno */
-        border-radius: 8px; /* Bordes redondeados */
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        padding: 0px 20px 30px 20px; 
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         width: 100%;
         background-color: #282828;
         margin-top: 2rem;
@@ -434,16 +428,13 @@ html, body {
         font-family: var(--fuenteLetra);
         margin-bottom: 1rem;
     }
-
     .form-group {
         margin: 0 1rem 1rem 0;
     }
-
     .form-group label {
         display: block;
         font-weight: bold;
     }
-
     .form-group input, 
     .form-group textarea {
         width: 100%;
@@ -452,12 +443,10 @@ html, body {
         border-radius: 5px;
         font-size: 16px;
     }
-
     .form-group textarea {
         resize: vertical;
         height: 150px;
     }
-
     .submit-btn {
         display: block;
         width: 100%;
@@ -469,7 +458,6 @@ html, body {
         font-size: 18px;
         cursor: pointer;
     }
-
     .submit-btn:hover {
         background-color: #218838;
     }
@@ -498,47 +486,8 @@ html, body {
     .menuNavegacionPC {
         display: none;
     }
-    .menuNavegacionMovil {
-        background-color: rgb(0, 0, 0);
-        position: absolute;
-        width: 10rem;
-        height: 20rem;
-        top: 0;
-        right: 0;
-        flex-direction: column;
-        margin: 0;
-        gap: 1.5rem;
-        padding: 0.8rem 1rem 1rem 1rem;
-        opacity: 0.85;
-    }
-        .seccionPaginaMovil {
-            font-family: var(--fuenteLetra);
-            font-weight: 700;
-            text-decoration: none;
-            color: white;
-            transition: 0.3s;
-            font-size: medium;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .divCerrarMenu {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-        }
-            .cerrarMenu {
-                width: 2rem;
-                height: 2rem;
-                display: flex;
-            }     
-    .menuHamburguesa {
-        width: 10px;
-        height: 60%;
-        display: flex;
-        margin-right: 3%;
-        font-size: 35px;
-        justify-content: flex-end;
+    .presentacion {
+        margin: 2rem 0 2rem 0;
     }
 
 .main {
