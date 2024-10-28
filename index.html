@@ -37,7 +37,7 @@
         <main class="main">
             <div class="acercaDe" id="acercaDe">
                 <div class="titulo">
-                    <h2 class="subtitulo"><img src="./images/iconUser.png" width="30" height="30">Acerca de mí</h2>
+                    <h2 class="subtitulo"><img src="./images/iconUser.png" width="30" height="30">Acerca de</h2>
                 </div>
 
                 <div class="descripcionSobreMi">
@@ -56,6 +56,12 @@
                         Education</span> y estoy comprometido con el aprendizaje continuo y la excelencia 
                         en el <span class="resaltarPalabras">desarrollo de software.</span>
                     </p>
+                </div>
+
+                <h3 class="tituloCertificadosONE">Certificados de progreso en el programa ONE</h3>
+                <div class="certificadosONE">
+                    <img class="imagenONE" id="imagen" src="./images/imagesCertifications/CertificadoCandidatoONE.png" alt="Imagen de Certificado">
+                    <img class="imagenONE" id="imagen" src="./images/imagesCertifications/CertificadoBackendONE.png" alt="Imagen de Certificado">
                 </div>
 
                 <div class="linksRedesSociales">
@@ -116,6 +122,7 @@
                 </div>
 
                 <div class="contenedorImagenesCertificaciones">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoIntroduccionSpringBootProgramacionFuncionalAlura.png" alt="Imagen de Certificado">
                     <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoIntroduccionAdministracionServidoresPlatzi.png" alt="Imagen de Certificado">
                     <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoConsumirAPIsAlura.png" alt="Imagen de Certificado">
                     <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPersistenciaDatosPlatzi.png" alt="Imagen de Certificado">
@@ -156,6 +163,8 @@
                     <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoChatGPTAlura.png" alt="Imagen de Certificado">
                 </div>
             </div>
+
+            
             
             <div class="proyectos" id="proyectos">
                 <div class="titulo">
@@ -163,7 +172,60 @@
                 </div>
 
                 <div class="proyecto">
-                    <h3 class="subtituloProyecto">Conversor de monedas, consumiendo una API</h3>
+                    <h3 class="subtituloProyecto">BookSmart</h3>
+
+                    <p class="descripcionProyecto">Esta aplicación, desarrollada en Java con Spring Boot, permite la búsqueda y gestión 
+                                                de libros mediante el consumo de la API de https://gutendex.com/.
+                                                <br><br>
+                                                Entre las funcionalidades que ofrece se incluyen: la búsqueda de libros por título, la 
+                                                visualización de los 10 libros más descargados, el acceso a estadísticas generales de la 
+                                                aplicación y la posibilidad de explorar todos los libros disponibles.
+                                                <br><br>
+                                                El proyecto se ha creado utilizando Spring Initializr y emplea Maven como gestor de 
+                                                dependencias. Además, se ha implementado el uso de streams para manipular colecciones 
+                                                de datos y se ha aplicado programación funcional para asegurar las mejores prácticas 
+                                                en el desarrollo.
+                                                <br><br>
+                                                Este proyecto forma parte de la formación en Spring en Alura.
+                    </p>
+                                                   
+                    <div class="contenedorImagenesProyecto">   
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/BookSmart/inicioBookSmart.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/BookSmart/top10Libros.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/BookSmart/estadisticas.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/BookSmart"><img src="./images/iconGitHub.png" width="33" height="18">Ver en GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">ScreenMatch</h3>
+
+                    <p class="descripcionProyecto">Primer proyecto en Java con Spring Boot del curso de Alura, programa ONE (Oracle Next Education):
+                                                    <br><br>
+                                                    Esta aplicación desarrollada en Java con Spring Boot permite realizar búsquedas de series mediante 
+                                                    la API de OMDb (https://www.omdbapi.com) para obtener sus datos.
+                                                    <br><br>
+                                                    Con esta herramienta, los usuarios pueden buscar series por nombre, realizar búsquedas por fecha, 
+                                                    visualizar estadísticas de cada temporada, consultar el top 5 de episodios mejor calificados de una 
+                                                    serie, entre otras funciones similares.
+                                                    <br><br>
+                                                    Además, se emplean técnicas de programación funcional y se aprovecha la API de Streams de Java, 
+                                                    permitiendo ejecutar operaciones intermedias y convertir los resultados en colecciones específicas 
+                                                    para facilitar el filtrado y búsqueda de series.
+                    </p>
+                                                   
+                    <div class="contenedorImagenesProyecto">   
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/ScreenMatch/inicio.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/ScreenMatch/episodiosSerie.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/ScreenMatch/busquedaPrimeraCoincidenciaEpisodio.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/ScreenMatch-Spring-Alura"><img src="./images/iconGitHub.png" width="33" height="18">Ver en GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Conversor de monedas</h3>
 
                     <p class="descripcionProyecto">Este es un conversor de monedas desarrollado en Java que consume la API de <a class="resaltarPalabras" href="https://www.exchangerate-api.com/">ExchangeRate-API</a>.
 
@@ -283,8 +345,12 @@
                 <div class="proyecto">
                     <h3 class="subtituloProyecto">Juego</h3>
 
-                    <p class="descripcionProyecto">Juego web realizado con HTML, CSS y JavaScript. Proyecto del 
-                                                   curso de programación basica de Platzi.</p>
+                    <p class="descripcionProyecto">Un juego de lucha en 2D diseñado con HTML, CSS, y JavaScript, aprovechando la potencia 
+                        de Canvas para ofrecer una experiencia visual impresionante y dinámica. 
+                        <br><br>
+                        En este universo de píxeles, los jugadores pueden seleccionar entre una variedad de personajes únicos, cada uno 
+                        con habilidades especiales, características distintivas, y poderes elementales que transforman cada combate en 
+                        una batalla estratégica y emocionante.</p>
 
                     <div class="contenedorImagenesProyecto">
                         <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Juego/juegoPrincipal.png">
