@@ -514,6 +514,9 @@ html, body {
     .presentacion {
         margin: 2rem 0 2rem 0;
     }
+    .nombreTitulo {
+        width: 20rem;
+    }
 
 .main {
     width: 85%;
@@ -526,23 +529,28 @@ html, body {
     .textoDesarrolladorBackend {
         text-align: center;
     }
-    .divTecnologias {
-        width: 100%;
+    .tituloCertificadosONE {
+        text-align: center;
     }
-        .tecnologias {
-            font-size: 0.8rem;
+    .certificadosONE {
+        flex-direction: column;
+        gap: 1rem;
+    }
+        .imagenONE {
+            max-width: 100%;
         }
-    .linksRedesSociales {
-        width: 100%;
-        flex-direction: row;
-        gap: 20px;
+
+.linksRedesSociales {
+    width: 100%;
+    flex-direction: row;
+    gap: 20px;
+}
+.linkRedSocial {
+    width: 33%;
+}
+    .linksRedesSociales:hover {
+        transform: none;
     }
-    .linkRedSocial {
-        width: 33%;
-    }
-        .linksRedesSociales:hover {
-            transform: none;
-        }
 
 .certificaciones {
     width: 100%;
