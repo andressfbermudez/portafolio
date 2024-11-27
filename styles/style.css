@@ -9,10 +9,11 @@
 }
 html, body {
     background: linear-gradient(180.61deg,
-          #192033 25.16%,
-          #04254f 80%,
-          #284f62 100%);
-    /*background:rgb(30, 30, 30);*/
+          #031034 25.16%,
+          #000d1c 80%,
+          #000000 100%);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    /*background:rgb(237, 237, 237);*/
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     cursor: default;
@@ -113,7 +114,7 @@ html, body {
     }
 /*-----------------------------------------------------------------MAIN-------------------------------------------------------------------*/
 .main {
-    width: 50%;
+    width: 60%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -128,12 +129,11 @@ html, body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
         padding: 0px 20px 30px 20px; 
         border-radius: 8px; 
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
         width: 100%;
-        background-color: #142d1a;
+        background-color: #000000;
         margin-top: 2rem;
     }
     .titulo {
@@ -202,7 +202,7 @@ html, body {
     border-radius: 8px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     width: 100%;
-    background-color: #142d1a;
+    background-color: #000000;
     margin-top: 2rem;
 }
     .listaTecnologias {
@@ -224,7 +224,7 @@ html, body {
         .tablaUno, .tablaDos {
             flex: 1 1 300px;
             padding: 20px;
-            background-color: #242424;
+            background-color: #3b3b3b;
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -256,15 +256,11 @@ html, body {
     width: 100%;
     padding: 0px 20px 30px 20px; 
     border-radius: 8px; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    background-color: #142d1a;
+    background-color: #000000;
     margin-top: 2rem;
 }
-    .listaEducacion {
-        list-style-type: none;
-    }
     .institucion {
-        background-color: #000000;
+        background-color: #3b3b3b;
         padding: 20px; 
         border-radius: 12px;
         font-family: var(--fuenteLetra);
@@ -273,26 +269,71 @@ html, body {
         width: 100%;
         box-sizing: border-box;
     }
-.tituloCertificadosONE {
-    margin-bottom: 1rem;
-    text-align: center;
-}
-.certificadosONE {
+.instituciones {
     display: flex;
-    justify-content: center;
-    gap: 3rem;
-    margin-bottom: 2rem;
+    flex-direction: column;
 }
-    .imagenONE {
-        max-width: 30%; 
-        border-radius: 1rem; 
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        transition: 0.4s;
+    .institucion {
+        display: flex;
+        gap: 3rem;
+        margin-bottom: 2rem;
     }
-        .imagenONE:hover {
-            cursor: pointer;
-            transform: scale(1.05);
+        .institucionTitulo {
+            margin-bottom: 1rem;
         }
+            .seccionInstitucion {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #218838;
+                border-radius: 1rem;
+            }
+                .seccionONE {
+                    margin: 2rem;
+                }
+                    .tituloONE {
+                        text-align: center;
+                        margin-bottom: 2rem;
+                    }
+                        .ONE {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #218838;
+                            border-radius: 1rem;
+                            margin-bottom: 2rem;
+                        }
+                            .imagenesONE {
+                                display: flex;
+                                gap: 2rem;
+                            }
+                                .imagenONE {
+                                    max-width: 30%;
+                                    transition: 0.4s;
+                                    border-radius: 1rem;
+                                }
+                                    .imagenONE:hover {
+                                        cursor: pointer;
+                                        transform: scale(1.05);
+                                    }
+                .descripcionInstitucion {
+                    font-size: small;
+                    padding: 0 2rem 0 2rem;
+                }
+                .imagenInstitucion {
+                    max-width: 20%; 
+                    border-radius: 1rem; 
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                    transition: 0.4s;
+                }
+                    .imagenInstitucion:hover {
+                        cursor: pointer;
+                        transform: scale(1.05);
+                    }
         
 .certificaciones {
         width: 100%;
@@ -300,12 +341,11 @@ html, body {
         display: flex;
         flex-direction: column;
         align-items: center;
-
         padding: 0px 20px 30px 20px;
         border-radius: 8px; 
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
         width: 100%;
-        background-color: #142d1a;
+        background-color: #084e08;
         margin: 2rem 0 2rem 0;
     }
         .subtituloCertificaciones {
@@ -351,7 +391,7 @@ html, body {
     border-radius: 8px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     width: 100%;
-    background-color: #142d1a;
+    background-color: #000000;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,20 +402,20 @@ html, body {
     border-radius: 8px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     width: 95%;
-    background-color: #161616;
+    background-color: #ffffff;
     margin-bottom: 2rem;
 }
     .subtituloProyecto {
         font-size: 28px; 
-        color: #ffffff; 
+        color: #000000; 
         margin-bottom: 15px; 
-        border-bottom: 2px solid #ffffff; 
+        border-bottom: 2px solid #000000; 
         padding-bottom: 10px; 
     }
     .descripcionProyecto {
         font-family: var(--fuenteLetra);
         font-size: 1rem;
-        color: #ffffff; 
+        color: #000000; 
         line-height: 1.5; 
         margin-bottom: 20px; 
     }
@@ -403,6 +443,10 @@ html, body {
         color: #ffffff; 
         font-weight: bold; 
         transition: color 0.3s; 
+        background-color: #000000;
+        width: 10rem;
+        height: 1.6rem;
+        border-radius: 1rem;
     }
     .linkProyectoGitHub:hover {
         color: #218838;
@@ -527,12 +571,16 @@ html, body {
     width: 85%;
     height: 100%;
 }
+    .acercaDe {
+        margin-top: 1rem;
+    }
     .nombreTitulo {
         text-align: center;
         font-size: 50px;
     }
     .textoDesarrolladorBackend {
         text-align: center;
+        margin-top: 1rem;
     }
     .tituloCertificadosONE {
         text-align: center;
@@ -544,7 +592,9 @@ html, body {
         .imagenONE {
             max-width: 100%;
         }
-
+.habilidades {
+    margin-top: 1rem;
+}
 .linksRedesSociales {
     width: 100%;
     flex-direction: row;
@@ -556,10 +606,17 @@ html, body {
     .linksRedesSociales:hover {
         transform: none;
     }
-
+.educacion {
+    margin-top: 1rem;
+}
+    .imagenInstitucion {
+        max-width: 30%;
+    }
 .certificaciones {
     width: 100%;
     height: 500px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
     .subtituloCertificaciones {
         margin: 20px 0 20px 0;
