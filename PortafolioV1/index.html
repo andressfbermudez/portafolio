@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Andres Bermudez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Desarrollador Backend, portafolio!">
+        <title>Andrés Bermúdez</title>
+        <link rel="icon" href="/images/perfil.png" type="image/x-icon">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <a class="nombreHeader" href="#top"><img src="./images/perfil.png" class="imagenHeader">Andrés Bermúdez</a>
+
+            <!-- Menu de navegacion para la version movil -->
+            <a class="menuHamburguesa" id="menuHamburguesa"><img src="./images/menuHamburguesa.png"></a>
+
+            <nav class="menuNavegacionPC" id="menuNavegacionPC">
+                <a class="seccionPaginaPC" id="seccionInicioPC" href="#top">Inicio</a>
+                <a class="seccionPaginaPC" id="seccionSobreMiPC" href="#sobreMi">Sobre Mí</a>
+                <a class="seccionPaginaPC" id="seccionProyectosPC" href="#proyectos">Proyectos</a>
+                <a class="seccionPaginaPC" id="seccionCertificacionesPC" href="#certificaciones">Certificaciones</a>
+            </nav>
+
+            <!-- Menu de navegacion para la version Desktop -->
+            <nav class="menuNavegacionMovil" id="menuNavegacionMovil">
+                <div  class="divCerrarMenu">
+                    <img  class="cerrarMenu" id="cerrarMenu" src="./images/iconCerrar.png">
+                </div>
+
+                <a class="seccionPaginaMovil" id="seccionInicioMovil" href="#top">Inicio</a>
+                <a class="seccionPaginaMovil" id="seccionSobreMiMovil" href="#sobreMi">Sobre Mí</a>
+                <a class="seccionPaginaMovil" id="seccionProyectosMovil" href="#proyectos">Proyectos</a>
+                <a class="seccionPaginaMovil" id="seccionCertificacionesMovil" href="#certificaciones">Certificaciones</a>
+
+                <div class="divLinksContacto">
+                    <a class="linkContacto" href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="41" height="24"></a>
+                    <a class="linkContacto" href="https://www.linkedin.com/in/andresfbermudez-in"><img src="./images/iconLinkedIn.png" width="38" height="25"></a>
+                    <a class="linkContacto" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="25" height="22"></a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="presentacion" id="Inicio">
+                <a class="imagenPerfilAnclaje" href="#sobreMi">
+                    <img src="./images/perfil.png" alt="Imagen de perfil" class="imagenPerfil">
+                </a>
+
+                <h2 class="lema">"Si no existe, créalo; Si ya existe, mejóralo"</h2>
+
+                <h1 class="nombreTitulo">Andrés Bermúdez</h1>
+                <h2 class="textoDesarrolladorBackend">Desarrollador BackEnd</h2>
+
+                <div class="divTecnologias">
+                    <h3 class="tecnologias" id="tecJava"><img src="./images/iconJava.png" width="36" height="43"> Java</h3>
+                    <h3 class="tecnologias"><img src="./images/iconPython.png" width="35" height="35"> Python</h3>
+                    <!--<h3 class="tecnologias"><img src="./images/iconSpringBoot.png" width="30" height="30"> Spring Boot</h3>-->
+                    <h3 class="tecnologias"><img src="./images/iconSQL.png" width="23" height="25"> SQL</h3>
+                    <h3 class="tecnologias"><img src="./images/iconLinux.png" width="30" height="30"> Linux</h3>
+                </div> 
+
+                <div class="linksRedesSociales">
+                    <a class="linkGitHub"  href="https://github.com/Andres-Bermudez"><img src="./images/iconGitHub.png" width="33" height="18">GitHub</a>
+                    <a class="linkLinkedIn" href="https://www.linkedin.com/in/andresfbermudez-in"><img src="./images/iconLinkedIn.png" width="30" height="20">LinkedIn</a>
+                </div>
+            </div>
+
+            
+            <div class="proyectos" id="proyectos">
+                <h2 class="subtituloProyectos"><img src="./images/iconProjects.png" alt="Icono de Maletin" width="30" height="30" style="padding: 7px;">Proyectos</h2>
+                
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Agenda de Contactos</h3>
+
+                    <p class="descripcionProyecto">Esta es una agenda de contactos desarrollada en Java con Maven, utilizando programación orientada a objetos, con conexion
+                                                   a base de datos MySQL con las cuatro(4) funciones basicas de la persistencia de datos y haciendo enfasis en el modelo de capas. 
+                                                   <br>
+                                                   <br>
+                                                   Entre sus funcionalidades destacan:
+                                                   <br>
+                                                   <br>
+                                                   CREAR CONTACTOS: Permite añadir nuevos contactos a la agenda.
+                                                   <br>
+                                                   <br>
+                                                   VISUALIZAR TUS CONTACTOS: Muestra una lista completa de todos los contactos almacenados.
+                                                   <br>
+                                                   <br>
+                                                   ACTUALIZAR TUS CONTACTOS: Ofrece la posibilidad de actualizar la información de un contacto existente.
+                                                   <br>
+                                                   <br>
+                                                   ELIMINAR CONTACTOS: Permite borrar contactos de la agenda.
+                    </p>
+                                                   
+                    <div class="contenedorImagenesProyecto">   
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/createContact.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/showContacts.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/AgendaContactos/deleteContact.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Contacts-List-MySQL"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Simulador Cajero Automatico</h3>
+
+                    <p class="descripcionProyecto">Este es un simulador de un cajero automatico que ofrece funcionalidades completas
+                                                   como registro e inicio de sesión de usuarios, consulta de saldo, depósito y 
+                                                   retiro de dinero. <br><br>Cada transacción incluye validación de datos para garantizar 
+                                                   la seguridad. Al finalizar cada operación, se genera automáticamente una factura
+                                                   detallada que incluye los datos del usuario, el monto retirado y el saldo disponible.</p>
+                                                    
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazRegistroUsuario.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazRetiro.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/CajeroAutomatico/interfazTransaccionFinalizada.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Sistema-Bancario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Calculadora</h3>
+
+                    <p class="descripcionProyecto">Esta calculadora permite realizar operaciones básicas y almacenarlas 
+                                                   temporalmente en un historial independiente para que el usuario las observe
+                                                   mientras continúa con otras operaciones.<br><br> Además, incluye la opción de cambiar 
+                                                   el color de fondo y una sección con información sobre el desarrollador. 
+                                                   Desarrollada en Java Swing. </p>
+
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Calculadora/calculadora.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Calculadora/calculadora2.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Calculadora-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Formulario</h3>
+
+                    <p class="descripcionProyecto">Este formulario está diseñado para registrar datos y generar automáticamente un
+                                                   documento con la información proporcionada por el usuario. Está desarrollado
+                                                   utilizando Java Swing.</p>
+
+                    <div class="contenedorImagenesProyecto">   
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_interfazPrincipal.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_interfazLlenado.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Formulario/formulario_documentoGenerado.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Formulario-Java-Swing"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Juego</h3>
+
+                    <p class="descripcionProyecto">Juego web realizado con HTML, CSS y JavaScript. Proyecto del 
+                                                   curso de programación basica de Platzi.</p>
+
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Juego/juegoPrincipal.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Juego/juegoInterfazCanvas.png">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Juego/juegoBatalla.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Juego-web-similar-a-Pokemon"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+
+                <div class="proyecto">
+                    <h3 class="subtituloProyecto">Encriptador de texto</h3>
+
+                    <p class="descripcionProyecto">Este proyecto es un encriptador de texto diseñado para transformar texto legible en 
+                                                   una forma codificada (texto cifrado), asegurando que no pueda ser entendido por 
+                                                   personas no autorizadas.<br><br>El proyecto hace parte del primer Challenge del 
+                                                   programa ONE Oracle Next Education en Alura, utilizando HTML, CSS y JavaScript.
+                                                   <a href="https://andres-bermudez.github.io/Encriptador-de-texto/" style="color: rgb(87, 146, 185);">Visitar Sitio.</a></p>
+                                                    
+                    <div class="contenedorImagenesProyecto">
+                        <img class="imagenProyecto" id="imagen" src="./images/imagesProyectos/Encriptador/encriptadorTexto.png">
+                    </div>
+
+                    <a class="linkProyectoGitHub" href="https://github.com/Andres-Bermudez/Encriptador-de-texto"><img src="./images/iconGitHub.png" width="33" height="18">Ir a GitHub</a>
+                </div>
+            </div>
+
+            <div class="certificaciones" id="certificaciones">
+                <h2 class="subtituloCertificaciones"><img src="./images/iconCertificates.png" alt="Icono de Certificado" width="30" height="30" style="padding-right: 7px;">Certificaciones</h2>
+                
+                <div class="contenedorImagenesCertificaciones">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPythonEntornosVirtuales.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoIntroduccionBackendPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPythonComprenhensionsPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoIntroduccionRedesPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoFundamentosBasesDatosPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPythonPlatzi.jpeg" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoPOOJavaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPOOJavaCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoKotlin.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoFundamentosPythonPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoIntroduccionJavaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoLinuxSQLCoursera.png" alt="Imegen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/CursoTerminalPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoProgramacionBasicaPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoFundamentosIngenieriaSoftwarePlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoGoogleDataAnalyticsCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/insigniaDigitalSenatecCoursera.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/carreraPreWorkPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/certificadoPrincipianteProgramacionG7ONEAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico1Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico2Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoPensamientoLogico3Platzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/certificadoLogicaProgramacionJavaScriptAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoLogicaProgramacion1Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoLogicaProgramacion2Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLCSS1Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHTMLCSS2Alura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoEntornoDesarrolloLinuxPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoEntornoDesarrolloWindowsPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoHistoriaProgramacionPlatzi.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoGitHubAlura.png" alt="Imagen de Certificado">
+                    <img class="imagenCertificacion" id="imagen" src="./images/imagesCertifications/cursoChatGPTAlura.png" alt="Imagen de Certificado">
+                </div>
+            </div>
+
+            <div class="sobreMi" id="sobreMi">
+                <div class="tituloSobreMi">
+                    <h2 class="subtituloSobreMi"><img src="./images/iconUser.png" width="30" height="30">Sobre mí</h2>
+                </div>
+
+                <div class="imagenDescripcionSobreMi">
+                    <div class="divImagenSobreMi">
+                        <img class="imagenSobreMi" src="./images/perfil.png" alt="Imagen de Andres" width="150" height="150">
+                    </div>
+
+                    <div class="descripcionSobreMi">
+                        <div class="divPadreParrafoSobreMi">
+                            <p class="parrafoSobreMi">Hola, soy <span class="resaltarPalabras">Andrés</span>!<br>
+
+                                <br>Mi interés en la <span class="resaltarPalabras">programación</span> comenzó a los
+                                12 años, cuando empecé a modificar <span class="resaltarPalabras">videojuegos</span>,
+                                sin saber que en realidad estaba <span class="resaltarPalabras">programando.</span> 
+                                Me dedico principalmente al <span class="resaltarPalabras">
+                                desarrollo backend</span>, con más de un año de experiencia en el campo.<br>
+                                
+                                <br>Me especializo en tecnologías como <span class="resaltarPalabras">Java</span> 
+                                ,<span class="resaltarPalabras"> Python</span>, bases de datos 
+                                relacionales (<span class="resaltarPalabras">SQL</span>) y <span class="resaltarPalabras">Linux</span>. Además, poseo conocimientos en 
+                                <span class="resaltarPalabras">desarrollo frontend</span>, utilizando tecnologías como 
+                                <span class="resaltarPalabras">HTML, CSS y JavaScript.</span><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="parrafoSobreMi"> Actualmente soy estudiante de <span class="resaltarPalabras">Ingeniería de Software</span> 
+                    en la facultad de Ingenieria, Diseño e Innovacion del <span class="resaltarPalabras">Politecnico Grancolombiano</span>
+                    y soy alumno del programa <span class="resaltarPalabras">ONE Oracle Next 
+                    Education</span> y estoy comprometido con el aprendizaje continuo y la excelencia 
+                    en el <span class="resaltarPalabras">desarrollo de software.</span>
+                </p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <h2 class="contacto">Contacto</h2>
+            <a class="link" href="https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}"><img src="./images/iconOutlook.png" alt="Icono de Outlook" style="margin-right: 7px;" width="17" height="15">Andres201900@outlook.com</a>
+        
+            <p class="copryrigth">© 2024 Andrés Bermúdez.</p>
+        </footer>
+
+        <script src="./scripts/script.js"></script>
+    </body>
+</html> 
