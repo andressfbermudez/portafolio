@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  font-family: "Geist", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ }
 html, body {
   height: 100%;
   margin: 0; 
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
   background-color: rgb(240, 240, 240);
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: 700;
 }
 
 .header {
@@ -23,7 +24,7 @@ html, body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .headerSection1 {
     width: 25%;
@@ -46,7 +47,7 @@ html, body {
   }
  .subsectionTitle {
     margin-top: 5px;
-    font-weight: 500;
+    font-weight: 600;
  }
 .subsectionHeader:hover {
     cursor: pointer;
@@ -69,14 +70,14 @@ html, body {
     .section1 {
         background-color: rgb(255, 255, 255);
         width: 15%;
-        height: 32rem;
+        height: 30rem;
         border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 1.5rem;
-        border: solid 1px black;
+        border: 1px solid rgba(0, 0, 0, 0.1);
     }
         .photoProfile {
             width: 6rem;
@@ -88,10 +89,14 @@ html, body {
         }
         .name {
             margin: 0 0 0.8rem 0;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
+            .name, .photoProfile:hover {
+                cursor: pointer;
+            }
         .description {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             font-weight: 500;
             margin: 0 0 0.8rem 0;
         }
@@ -121,10 +126,10 @@ html, body {
     .section2 {
         background-color: rgb(255, 255, 255);
         width: 40%;
-        height: 93rem;
+        height: 101rem;
         border-radius: 0.5rem;
         padding: 1.5rem;
-        border: solid 1px black;
+        border: 1px solid rgba(0, 0, 0, 0.1);
     }
         .funPhrases {
             font-size: 0.9rem;
@@ -132,7 +137,7 @@ html, body {
             margin: 0 0 1.5rem 0;
         }
         .titleFeatureProjects {
-            border-bottom: solid 1px black;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
         .featureProjects {
             margin: 0 0 1.2rem 0;
@@ -142,7 +147,7 @@ html, body {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                border-bottom: solid 1px black;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
             }
             .titleProject {
                 margin: 2rem 0 0.8rem 0;
@@ -157,13 +162,15 @@ html, body {
             .imagesProject {
                 display: flex;
                 flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap; 
                 gap: 2rem;
                 margin: 0 0 0.8rem 0;
             }
                 .imageProject {
-                    width: 33%;
+                    max-width: 33%;
                     height: 5rem;
-                    border-radius: 0.5rem;
+                    border-radius: 0.3rem;
                     box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
                     transition: 0.3s;
                 }
@@ -184,8 +191,13 @@ html, body {
                 }
             .noteProjects {
                 font-size: 0.7rem;
-                font-weight: 100;
+                font-weight: 300;
                 margin-bottom: 1rem;
+            }
+            .noteProjects2 {
+                font-size: 0.7rem;
+                font-weight: 300;
+                margin: 0.7rem 0 1rem 0;
             }
     .section3 {
         background-color: rgb(255, 255, 255);
@@ -193,10 +205,11 @@ html, body {
         height: 96rem;
         border-radius: 0.5rem;
         padding: 1.5rem;
-        border: solid 1px black;
+        border: 1px solid rgba(0, 0, 0, 0.1);
     }
         .titleCertifications {
             margin: 0 0 1.5rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
         .certifications {
             display: flex;
@@ -207,7 +220,6 @@ html, body {
         }
         .certificationImage {
             border-radius: 0.5rem;
-            border: solid 1px black;
             width: 90%;
             height: 10rem;
             box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
@@ -219,6 +231,6 @@ html, body {
             }
         .noteCertifications {
             font-size: 0.7rem;
-            font-weight: 100;
+            font-weight: 300;
             margin-top: 1rem;
         }

@@ -19,7 +19,12 @@
             </div>
 
             <div class="headerSection2">
-                <div class="subsectionHeader">
+                <div class="subsectionHeader" id="start">
+                    <img src="/images/icons/start.png" style="width: 30px; height: 30px;">
+                    <h5 class="subsectionTitle">Inicio</h5>
+                </div>
+
+                <div class="subsectionHeader" data-redirect="about">
                     <img src="/images/icons/user.png" style="width: 30px; height: 30px;">
                     <h5 class="subsectionTitle">Acerca de</h5>
                 </div>
@@ -57,8 +62,8 @@
 
         <main class="main">
             <div class="section1">
-                <img class="photoProfile" src="images/images/profile.jpeg">
-                <h3 class="name">Andrés Bermúdez</h3>
+                <img class="photoProfile" data-redirect="about" src="images/images/profile.jpeg">
+                <h3 class="name" data-redirect="about">Andrés Bermúdez</h3>
                 <p class="description">
                     Desarrollador Backend especializado en Java con Spring Boot con 
                     experiencia en el desarrollo de APIs RESTful, diseño e implementación
@@ -69,9 +74,9 @@
                 <h5 class="location"><img class="locationIcon" src="images/icons/location.png">Bogotá, Colombia</h5>
                 
                 <div class="socialMedia">
-                    <img class="socialMediaIcon" src="images/icons/github.png">
-                    <img class="socialMediaIcon" src="images/icons/linkedin.png">
-                    <img class="socialMediaIcon" src="images/icons/whatsapp.png">
+                    <img class="socialMediaIcon" data-redirect="github" src="images/icons/github.png">
+                    <img class="socialMediaIcon" data-redirect="linkedin" src="images/icons/linkedin.png">
+                    <img class="socialMediaIcon" data-redirect="whatsapp" src="images/icons/whatsapp.png">
                 </div>
             </div>
 
@@ -106,12 +111,12 @@
                         </p>
 
                         <div class="imagesProject">
-                            <img class="imageProject" src="images/projects/REST API Forum Hub/login.png">
-                            <img class="imageProject" src="images/projects/REST API Forum Hub/createTopic.png">
-                            <img class="imageProject" src="images/projects/REST API Forum Hub/listTopics.png">
+                            <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/login.png">
+                            <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/createTopic.png">
+                            <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/listTopics.png">
                         </div>
 
-                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/REST-API-Forum-Hub-Challenge">Visitar proyecto</a></h4>
+                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/REST-API-Forum-Hub-Challenge">Visitar proyecto.</a></h4>
                         <p class="noteProjects">Para ver más detalles, haz clic en la pestaña superior "Proyectos".</p>
                     </div>
 
@@ -136,12 +141,12 @@
                         </p>
 
                         <div class="imagesProject">
-                            <img class="imageProject" src="images/projects/REST API Clinica Voll/createDoctor.png">
-                            <img class="imageProject" src="images/projects/REST API Clinica Voll/listDoctor.png">
-                            <img class="imageProject" src="images/projects/REST API Clinica Voll/documentation.png">
+                            <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/createDoctor.png">
+                            <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/listDoctor.png">
+                            <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/documentation.png">
                         </div>
 
-                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/RESTapi-Clinica-Voll?tab=readme-ov-file#rest-api-clinica-voll">Visitar proyecto</a></h4>
+                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/RESTapi-Clinica-Voll?tab=readme-ov-file#rest-api-clinica-voll">Visitar proyecto.</a></h4>
                         <p class="noteProjects">Para ver más detalles, haz clic en la pestaña superior "Proyectos".</p>
                     </div>
 
@@ -161,15 +166,15 @@
                         </p>
 
                         <div class="imagesProject">
-                            <img class="imageProject" src="images/projects/Market REST API/listProducts.png">
-                            <img class="imageProject" src="images/projects/Market REST API/findProductById.png">
-                            <img class="imageProject" src="images/projects/Market REST API/schemaDB.png">
+                            <img class="imageProject" id="image" src="images/projects/Market REST API/listProducts.png">
+                            <img class="imageProject" id="image" src="images/projects/Market REST API/findProductById.png">
+                            <img class="imageProject" id="image" src="images/projects/Market REST API/schemaDB.png">
                         </div>
 
-                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/Market-API">Visitar proyecto</a></h4>
+                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/Market-API">Visitar proyecto.</a></h4>
                         <p class="noteProjects">Para ver más detalles, haz clic en la pestaña superior "Proyectos".</p>
                     </div>
-                    <p class="noteProjects">Para ver todos los proyectos, haz clic en la pestaña superior "Proyectos".</p>
+                    <p class="noteProjects2">Para ver todos los proyectos, haz clic en la pestaña superior "Proyectos".</p>
                 </div>
             </div>
 
@@ -177,14 +182,14 @@
                 <h2 class="titleCertifications">Certificaciones</h2>
 
                 <div class="certifications">
-                    <img class="certificationImage" src="images/certifications/certificadoFinalizacionProgramaONE.png">
-                    <img class="certificationImage" src="images/certifications/cursoJavaSpringPlatzi.png">
-                    <img class="certificationImage" src="images/certifications/cursoBuenasPracticasSpringSecurityAlura.png">
-                    <img class="certificationImage" src="images/certifications/cursoSpringPersistenciaDatos.png">
-                    <img class="certificationImage" src="images/certifications/cursoPersistenciaDatosPlatzi.png">
-                    <img class="certificationImage" src="images/certifications/cursoPOOJavaPlatzi.png">
-                    <img class="certificationImage" src="images/certifications/cursoIntroduccionJavaPlatzi.png">
-                    <img class="certificationImage" src="images/certifications/cursoFundamentosIngenieriaSoftwarePlatzi.png">
+                    <img class="certificationImage" id="image" src="images/certifications/certificadoFinalizacionProgramaONE.png">
+                    <img class="certificationImage" id="image" src="images/certifications/cursoJavaSpringPlatzi.png">
+                    <img class="certificationImage" id="image" src="images/certifications/cursoBuenasPracticasSpringSecurityAlura.png">
+                    <img class="certificationImage" id="image" src="images/certifications/cursoSpringPersistenciaDatos.png">
+                    <img class="certificationImage" id="image" src="images/certifications/cursoPersistenciaDatosPlatzi.png">
+                    <img class="certificationImage" id="image" src="images/certifications/cursoPOOJavaPlatzi.png">
+                    <img class="certificationImage" id="image" src="images/certifications/cursoIntroduccionJavaPlatzi.png">
+                    <img class="certificationImage" id="image" src="images/certifications/cursoFundamentosIngenieriaSoftwarePlatzi.png">
                 </div>
 
                 <p class="noteCertifications">Para ver todas las certificaciones, haz clic en la pestaña superior "Certificaciones".</p>
@@ -194,6 +199,8 @@
         <footer class="footer">
 
         </footer>
+
+        <script src="scripts/script.js" defer></script>
     </body>
 </html>
     

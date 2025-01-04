@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geist", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+html, body {
+  height: 100%;
+  margin: 0; 
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: rgb(240, 240, 240);
+  font-weight: 700;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.headerSection1 {
+    width: 25%;
+}
+.headerSection2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgb(255, 255, 255);
+}
+.subsectionHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  }
+ .subsectionTitle {
+    margin-top: 5px;
+    font-weight: 600;
+ }
+.subsectionHeader:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.headerSection3 {
+    width: 25%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0 0 0;
+}
+    .about {
+        width: 70%;
+        height: auto;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .divAndres {
+        width: 100%;
+        height: auto;
+        margin: 0 0 1rem 0;
+    }
+        .imageAndData {
+            display: flex;
+            flex-direction: row;
+        }
+        .divPhotoProfile {
+            width: auto;
+            margin: 0 1rem 0 0;
+        }
+            .photoProfile {
+                height: 10rem;
+                width: 10rem;
+                border-radius: 100%;
+                border: solid 1px black;
+            }
+        .divProfession {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin: 0 3rem 0 0;
+        }
+            .profession {
+                color: rgb(193, 138, 20);
+                font-size: 1.2rem;
+            }
+        .divLocation {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+            .location {
+                font-size: 1.2rem;
+            }
+            .locationIcon {
+                height: 1.2rem;
+                width: 1.2rem;
+            }
+        .name {
+            font-size: 2.5rem;
+            font-weight: 930;
+            margin: 0 25rem 0 0;
+        }
+        .socialMedia {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+            .socialMediaIcon {
+                height: 2rem;
+                width: 2rem;
+                transition: 0.3s;
+            }
+            .socialMediaIcon:hover {
+                cursor: pointer;
+                transform: scale(1.03);
+            }
+    .descriptionAbout {
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0 0 2.5rem 0;
+    }
+        .linkProjects {
+            color: rgb(29, 107, 196);
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+            .linkProjects:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+    .programingStart {
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: 910;
+        margin: 0 0 1rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
