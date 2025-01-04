@@ -8,13 +8,9 @@
     padding: 0;
 }
 html, body {
-    background: linear-gradient(180.61deg,
-          #031034 25.16%,
-          #000d1c 80%,
-          #000000 100%);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     cursor: default;
     display: flex;
     flex-direction: column;
@@ -35,7 +31,6 @@ html, body {
     align-items: center;
     z-index: 1000;
 
-    background-image: url('/images/iconos/fondoHeader.png');
     background-size: cover; /* Ajusta la imagen al tamaño del div */
     background-position: center;
 }
@@ -50,7 +45,6 @@ html, body {
         position: fixed;
         top: 0;
         z-index: 1000;
-        background-color: #000000;
         width: 100%;
         height: 2.5rem;
         margin: 0;
@@ -64,7 +58,7 @@ html, body {
             font-weight: 600;
             text-decoration: none;
             transition: 0.3s;
-            color: white;
+            color: rgb(0, 0, 0);
             width: auto;
             height: 1.6rem;
             border-radius: 1rem;
@@ -146,7 +140,6 @@ html, body {
         border-radius: 8px; 
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
         width: 100%;
-        background-color: #000000;
         margin-top: 2rem;
     }
     .titulo {
@@ -162,15 +155,6 @@ html, body {
             width: 100%;
             margin: 3rem 0 0.7rem 0;
         }
-        .seccionDescripcionSobreMi {
-            margin: 1rem;
-            padding: 1rem;
-            border-radius: 1rem;
-
-            background-image: url('/images/iconos/fondoAcercaDe.png');
-            background-size: cover; /* Ajusta la imagen al tamaño del div */
-            background-position: center;
-        }
         .descripcionSobreMi {
             font-family: var(--fuenteLetra);
             font-size: medium;
@@ -178,9 +162,12 @@ html, body {
             width: 100%;
             height: 100%;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 1rem;
         }
             .resaltarPalabras {
                 color: rgb(219, 102, 0);
@@ -190,6 +177,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     margin: 2rem 0 1rem 0;
+    gap: 3rem;
 }
     .imagenAcercaDe {
         border-radius: 20px;
@@ -228,10 +216,7 @@ html, body {
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-            background-image: url('/images/iconos/fondoHabilidades.jpg');
-            background-size: cover; /* Ajusta la imagen al tamaño del div */
-            background-position: center;
+            background-color: rgb(69, 82, 67);
         }
         .listaTecnologias {
             list-style-type: none;
@@ -589,7 +574,21 @@ html, body {
     height: 100%;
 }
     .acercaDe {
-        margin-top: 1rem;
+        margin: 0;
+    }
+    .descripcionSobreMi {
+        width: 100%;
+        margin: 0;
+    }
+    .seccionDescripcionSobreMi {
+        width: 100%;
+        margin: 0;
+    }
+    .imagenesAcercaDe {
+        flex-direction: row;
+    }
+    .imagenAcercaDe {
+        width: 20%;
     }
     .nombreTitulo {
         text-align: center;
