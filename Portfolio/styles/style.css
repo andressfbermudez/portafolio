@@ -8,8 +8,9 @@ html, body {
   margin: 0; 
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-  background-color: rgb(244, 244, 244);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: rgb(240, 240, 240);
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 .header {
@@ -22,6 +23,7 @@ html, body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border: solid 1px black;
 }
 .headerSection1 {
     width: 25%;
@@ -66,14 +68,15 @@ html, body {
 }
     .section1 {
         background-color: rgb(255, 255, 255);
-        width: 20%;
-        height: 28rem;
+        width: 15%;
+        height: 32rem;
         border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 1.5rem;
+        border: solid 1px black;
     }
         .photoProfile {
             width: 6rem;
@@ -88,7 +91,7 @@ html, body {
             font-size: 1.3rem;
         }
         .description {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             font-weight: 500;
             margin: 0 0 0.8rem 0;
         }
@@ -99,8 +102,8 @@ html, body {
             border-bottom: solid 1px black;
         }
         .locationIcon {
-            height: 1.5rem;
-            width: 1.5rem;
+            height: 1.2rem;
+            width: 1.2rem;
         }
         .socialMedia {
             display: flex;
@@ -118,12 +121,104 @@ html, body {
     .section2 {
         background-color: rgb(255, 255, 255);
         width: 40%;
-        height: 50rem;
+        height: 93rem;
         border-radius: 0.5rem;
+        padding: 1.5rem;
+        border: solid 1px black;
     }
+        .funPhrases {
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: 0 0 1.5rem 0;
+        }
+        .titleFeatureProjects {
+            border-bottom: solid 1px black;
+        }
+        .featureProjects {
+            margin: 0 0 1.2rem 0;
+        }
+            .project {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-bottom: solid 1px black;
+            }
+            .titleProject {
+                margin: 2rem 0 0.8rem 0;
+                font-size: 1.5rem;
+                font-weight: 800;
+            }
+            .descriptionProject{
+                font-size: 0.9rem;
+                font-weight: 500;
+                margin: 0 0 0.8rem 0;
+            }
+            .imagesProject {
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                margin: 0 0 0.8rem 0;
+            }
+                .imageProject {
+                    width: 33%;
+                    height: 5rem;
+                    border-radius: 0.5rem;
+                    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
+                    transition: 0.3s;
+                }
+                    .imageProject:hover {
+                        cursor: pointer;
+                        transform: scale(1.03);
+                    }
+            .titleLinkProject {
+                margin: 0 0 0.4rem 0;
+            }
+            .linkProject {
+                color: rgb(29, 107, 196);
+                text-decoration: none;
+            }
+                .linkProject:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            .noteProjects {
+                font-size: 0.7rem;
+                font-weight: 100;
+                margin-bottom: 1rem;
+            }
     .section3 {
         background-color: rgb(255, 255, 255);
         width: 20%;
-        height: 50rem;
+        height: 96rem;
         border-radius: 0.5rem;
+        padding: 1.5rem;
+        border: solid 1px black;
     }
+        .titleCertifications {
+            margin: 0 0 1.5rem 0;
+        }
+        .certifications {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+        .certificationImage {
+            border-radius: 0.5rem;
+            border: solid 1px black;
+            width: 90%;
+            height: 10rem;
+            box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+            .certificationImage:hover {
+                cursor: pointer;
+                transform: scale(1.03);
+            }
+        .noteCertifications {
+            font-size: 0.7rem;
+            font-weight: 100;
+            margin-top: 1rem;
+        }

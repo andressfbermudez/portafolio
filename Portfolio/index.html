@@ -8,8 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio">
         <title>Andrés Bermúdez</title>
-        <link rel="icon" href="/images/profile.jpeg" type="image/x-icon">
-        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="icon" href="/images/images/profile.jpeg" type="image/x-icon">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
 
     <body class="body">
@@ -76,11 +76,118 @@
             </div>
 
             <div class="section2">
-                
+                <p class="funPhrases">
+                    ¡La programación es mi profesión y hobby!
+                    <br><br>
+                    Me encanta programar en Java, aunque también admiro la simplicidad y elegancia 
+                    de los principios del Zen de Python. Al final del día, lo importante es que el
+                    código compile... ¡o al menos no explote demasiado!
+                </p>
+
+                <h2 class="titleFeatureProjects">Proyectos Destacados</h2>
+                <div class="featuredProjects">
+                    <div class="project">
+                        <h4 class="titleProject">REST API Forum Hub</h4>
+                        <p class="descriptionProject">
+                            Este proyecto es una API REST para un foro donde los participantes de
+                            una plataforma pueden publicar sus preguntas sobre determinados temas.
+                            Esta API fue desarrollada en Java con Spring Boot y una base de datos
+                            en PostgreSQL, la API implementa autenticación y autorización mediante
+                            JSON Web Tokens (JWT) para garantizar la seguridad y validación de 
+                            los datos.
+                            <br><br>
+                            La API proporciona herramientas para gestionar el foro de forma completa:
+                            permite crear nuevos temas, visualizar los existentes, actualizar o 
+                            eliminar temas, generar respuestas a cualquier tema y también modificar
+                            o eliminar dichas respuestas.
+                            <br><br>
+                            Cuenta con validadores que verifican si los datos que el usuario desea
+                            insertar, actualizar o eliminar cumplen con las reglas del negocio.
+                        </p>
+
+                        <div class="imagesProject">
+                            <img class="imageProject" src="images/projects/REST API Forum Hub/login.png">
+                            <img class="imageProject" src="images/projects/REST API Forum Hub/createTopic.png">
+                            <img class="imageProject" src="images/projects/REST API Forum Hub/listTopics.png">
+                        </div>
+
+                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/REST-API-Forum-Hub-Challenge">Visitar proyecto</a></h4>
+                        <p class="noteProjects">Para ver más detalles, haz clic en la pestaña superior "Proyectos".</p>
+                    </div>
+
+                    <div class="project">
+                        <h4 class="titleProject">REST API Clinica Voll</h4>
+                        <p class="descriptionProject">
+                            Este proyecto es una API REST diseñada para una clínica que permite la 
+                            gestión de médicos, pacientes y consultas, creada como proyecto final 
+                            de uno de los cursos de la especializacion en backend con Java y Spring
+                            framework de ONE - Oracle Next Education.
+                            <br><br>
+                            Fue desarrollada en Java con Spring Boot, base de datos en MySQL y Maven
+                            como gestor de dependencias.
+                            <br><br>
+                            La API cuenta con funciones de seguridad como autenticacion y autorizacion
+                            de usuarios usando JSON Web Tokens de la libreria Auth0.
+                            <br><br>
+                            Tambien cuenta con multiples validaciones para las reglas de negocio, como 
+                            verificacion de fechas, validez de los tokens y de los datos enviados por 
+                            el usuario, esto para asegurar que no se permitan datos incorrectos, 
+                            incompletos o invalidos.
+                        </p>
+
+                        <div class="imagesProject">
+                            <img class="imageProject" src="images/projects/REST API Clinica Voll/createDoctor.png">
+                            <img class="imageProject" src="images/projects/REST API Clinica Voll/listDoctor.png">
+                            <img class="imageProject" src="images/projects/REST API Clinica Voll/documentation.png">
+                        </div>
+
+                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/RESTapi-Clinica-Voll?tab=readme-ov-file#rest-api-clinica-voll">Visitar proyecto</a></h4>
+                        <p class="noteProjects">Para ver más detalles, haz clic en la pestaña superior "Proyectos".</p>
+                    </div>
+
+                    <div class="project">
+                        <h4 class="titleProject">Market REST API</h4>
+                        <p class="descriptionProject">
+                            Este proyecto es una API REST para un supermercado que facilita la gestión de clientes,
+                            productos y compras. Desarrollado en Java con Spring Boot y base de datos en PostgreSQL,
+                            utiliza módulos del framework como Spring Web MVC y Spring Data JPA. Sigue patrones de 
+                            diseño DAO y Repository, adoptando una arquitectura orientada al dominio para una mayor
+                            flexibilidad y escalabilidad.
+                            <br><br>
+                            La API permite visualizar productos, clientes y compras registradas, además de ofrecer
+                            métodos más específicos como filtrar búsquedas por ID o buscar productos según la 
+                            cantidad disponible en stock. También incluye las operaciones básicas de un CRUD: 
+                            crear, leer, actualizar y eliminar productos, clientes y compras.
+                        </p>
+
+                        <div class="imagesProject">
+                            <img class="imageProject" src="images/projects/Market REST API/listProducts.png">
+                            <img class="imageProject" src="images/projects/Market REST API/findProductById.png">
+                            <img class="imageProject" src="images/projects/Market REST API/schemaDB.png">
+                        </div>
+
+                        <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/Market-API">Visitar proyecto</a></h4>
+                        <p class="noteProjects">Para ver más detalles, haz clic en la pestaña superior "Proyectos".</p>
+                    </div>
+                    <p class="noteProjects">Para ver todos los proyectos, haz clic en la pestaña superior "Proyectos".</p>
+                </div>
             </div>
 
             <div class="section3">
-                
+                <h2 class="titleCertifications">Certificaciones</h2>
+
+                <div class="certifications">
+                    <img class="certificationImage" src="images/certifications/certificadoFinalizacionProgramaONE.png">
+                    <img class="certificationImage" src="images/certifications/cursoJavaSpringPlatzi.png">
+                    <img class="certificationImage" src="images/certifications/cursoBuenasPracticasSpringSecurityAlura.png">
+                    <img class="certificationImage" src="images/certifications/cursoSpringPersistenciaDatos.png">
+                    <img class="certificationImage" src="images/certifications/cursoPersistenciaDatosPlatzi.png">
+                    <img class="certificationImage" src="images/certifications/cursoPOOJavaPlatzi.png">
+                    <img class="certificationImage" src="images/certifications/cursoIntroduccionJavaPlatzi.png">
+                    <img class="certificationImage" src="images/certifications/cursoFundamentosIngenieriaSoftwarePlatzi.png">
+                </div>
+
+                <p class="noteCertifications">Para ver todas las certificaciones, haz clic en la pestaña superior "Certificaciones".</p>
             </div>
         </main>
 
