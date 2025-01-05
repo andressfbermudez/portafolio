@@ -16,7 +16,6 @@ html, body {
   background-color: rgb(240, 240, 240);
   font-weight: 700;
 }
-
 .header {
     top: 0;
     width: 100%;
@@ -48,18 +47,20 @@ html, body {
     align-items: center;
     transition: 0.3s;
   }
- .subsectionTitle {
-    margin-top: 5px;
-    font-weight: 600;
- }
-.subsectionHeader:hover {
-    cursor: pointer;
-    transform: scale(1.03);
+#about {
+    border-bottom: solid 2px black;
 }
-.headerSection3 {
-    width: 25%;
-}
-
+    .subsectionTitle {
+        margin-top: 5px;
+        font-weight: 600;
+    }
+    .subsectionHeader:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
+    .headerSection3 {
+        width: 25%;
+    }
 .main {
     display: flex;
     justify-content: center;
@@ -157,10 +158,36 @@ html, body {
                 cursor: pointer;
                 text-decoration: underline;
             }
-    .programingStart {
+    .subtitleAbout {
+        display: flex;
+        justify-content: flex-end;
         width: 100%;
         font-size: 1.8rem;
         font-weight: 910;
         margin: 0 0 1rem 0;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
+    }   
+        .gif {
+            width: 3rem;
+            height: 2rem;
+            border-radius: 0.2rem;
+            margin: 0 1rem 0 0;
+        }
+        .divMilitarImages {
+            display: flex;
+            flex-direction: row;
+            gap: 5rem;
+            margin: 0 0 2rem 0;
+        }
+        .aboutImage {
+            border: solid 1px black;
+            width: 12rem;
+            height: auto;
+            border-radius: 0.7rem;
+            box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+            .aboutImage:hover {
+                cursor: pointer;
+                transform: scale(1.03);
+            }

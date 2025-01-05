@@ -1,13 +1,16 @@
 // Redirecciona hacia index.html
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById('start').onclick = function() {
-        window.location.href = 'index.html';
-    };
+document.querySelectorAll('[data-redirect="start"]').forEach(element => {
+        element.onclick = () => window.location.href = 'index.html';
 });
 
 // Redirecciona hacia about.html
 document.querySelectorAll('[data-redirect="about"]').forEach(element => {
         element.onclick = () => window.location.href = 'about.html';
+});
+
+// Redirecciona hacia certifications.html
+document.querySelectorAll('[data-redirect="certifications"]').forEach(element => {
+        element.onclick = () => window.location.href = 'certifications.html';
 });
 
 // Redirecciona hacia mi perfil de GitHub
