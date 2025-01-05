@@ -58,9 +58,14 @@ html, body {
 }
 .headerSection3 {
     width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 0 1rem 0.4rem 0;
 }
-
-
+    
 .main {
     display: flex;
     flex-direction: row;
@@ -72,8 +77,8 @@ html, body {
 }
     .section1 {
         background-color: rgb(255, 255, 255);
-        width: 15%;
-        height: 30rem;
+        width: 18%;
+        height: 35rem;
         border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
@@ -99,15 +104,17 @@ html, body {
                 cursor: pointer;
             }
         .description {
-            font-size: 0.8rem;
+            font-size: 1rem;
             font-weight: 500;
             margin: 0 0 0.8rem 0;
         }
         .location {
             width: 80%;
             padding: 0 0 0.3rem 0;
-            margin: 0 0 1rem 0;
+            margin: 1rem 0 1rem 0;
             border-bottom: solid 1px black;
+            display: flex;
+            justify-content: center;
         }
         .locationIcon {
             height: 1.2rem;
@@ -129,13 +136,13 @@ html, body {
     .section2 {
         background-color: rgb(255, 255, 255);
         width: 40%;
-        height: 102rem;
+        height: auto;
         border-radius: 0.5rem;
         padding: 1.5rem;
         border: 1px solid rgba(0, 0, 0, 0.1);
     }
         .funPhrases {
-            font-size: 0.9rem;
+            font-size: 1rem;
             font-weight: 500;
             margin: 0 0 1.5rem 0;
         }
@@ -158,7 +165,7 @@ html, body {
                 font-weight: 800;
             }
             .descriptionProject{
-                font-size: 0.9rem;
+                font-size: 1rem;
                 font-weight: 500;
                 margin: 0 0 0.8rem 0;
             }

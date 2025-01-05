@@ -58,9 +58,15 @@ html, body {
         cursor: pointer;
         transform: scale(1.03);
     }
-    .headerSection3 {
-        width: 25%;
-    }
+.headerSection3 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 0 1rem 0.4rem 0;
+}
 .main {
     display: flex;
     justify-content: center;
@@ -107,7 +113,7 @@ html, body {
         }
             .profession {
                 color: rgb(193, 138, 20);
-                font-size: 1.2rem;
+                font-size: 1.8rem;
             }
         .divLocation {
             width: auto;
@@ -123,7 +129,7 @@ html, body {
                 width: 1.2rem;
             }
         .name {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             font-weight: 930;
             margin: 0 25rem 0 0;
         }
@@ -144,7 +150,7 @@ html, body {
                 transform: scale(1.03);
             }
     .descriptionAbout {
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 500;
         margin: 0 0 2.5rem 0;
     }
@@ -162,14 +168,14 @@ html, body {
         display: flex;
         justify-content: flex-end;
         width: 100%;
-        font-size: 1.8rem;
+        font-size: 2.3rem;
         font-weight: 910;
         margin: 0 0 1rem 0;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }   
         .gif {
-            width: 3rem;
-            height: 2rem;
+            width: 3.5rem;
+            height: 2.5rem;
             border-radius: 0.2rem;
             margin: 0 1rem 0 0;
         }
