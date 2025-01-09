@@ -1,29 +1,34 @@
-// Redirecciona hacia index.html
+// Redireccionar hacia index.html
 document.querySelectorAll('[data-redirect="start"]').forEach(element => {
         element.onclick = () => window.location.href = 'index.html';
 });
 
-// Redirecciona hacia about.html
+// Redireccionar hacia about.html
 document.querySelectorAll('[data-redirect="about"]').forEach(element => {
         element.onclick = () => window.location.href = 'about.html';
 });
 
-// Redirecciona hacia certifications.html
+// Redireccionar hacia certifications.html
 document.querySelectorAll('[data-redirect="certifications"]').forEach(element => {
         element.onclick = () => window.location.href = 'certifications.html';
 });
 
-// Redirecciona hacia mi perfil de GitHub
+// Redireccionar hacia certifications.html
+document.querySelectorAll('[data-redirect="projects"]').forEach(element => {
+        element.onclick = () => window.location.href = 'projects.html';
+});
+
+// Redireccionar hacia mi perfil de GitHub
 document.querySelectorAll('[data-redirect="github"]').forEach(element => {
         element.onclick = () => window.location.href = 'https://github.com/Andres-Bermudez';
 });
 
-// Redirecciona hacia mi perfil de LinkedIn
+// Redireccionar hacia mi perfil de LinkedIn
 document.querySelectorAll('[data-redirect="linkedin"]').forEach(element => {
         element.onclick = () => window.location.href = 'https://www.linkedin.com/in/andresfbermudez-in/';
 });
 
-// Redirecciona hacia mi chat de whatsapp
+// Redireccionar hacia mi chat de whatsapp
 document.querySelectorAll('[data-redirect="whatsapp"]').forEach(element => {
         element.onclick = () => window.location.href = 'https://wa.me/3133740300?text=Hola Andrés!';
 });

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Andrés Bermúdez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio">
+        <title>Proyectos</title>
+        <link rel="icon" href="/images/images/profile.jpeg" type="image/x-icon">
+        <link rel="stylesheet" href="styles/projects.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="headerSection1">
+                
+            </div>
+
+            <div class="headerSection2" >
+                <div class="subsectionHeader" data-redirect="start" id="start">
+                    <img src="/images/icons/start.png" style="width: 30px; height: 30px;">
+                    <h5 class="subsectionTitle">Inicio</h5>
+                </div>
+
+                <div class="subsectionHeader" data-redirect="about" id="about">
+                    <img src="/images/icons/user.png" style="width: 30px; height: 30px;">
+                    <h5 class="subsectionTitle">Acerca de</h5>
+                </div>
+
+                <div class="subsectionHeader" data-redirect="projects" id="projects">
+                    <img src="/images/icons/project.png" style="width: 30px; height: 30px;">
+                    <h5 class="subsectionTitle">Proyectos</h5>
+                </div>
+
+                <div class="subsectionHeader">
+                    <img src="/images/icons/book.png" style="width: 35px; height: 30px;">
+                    <h5 class="subsectionTitle">Educación</h5>
+                </div>
+
+                <div class="subsectionHeader" data-redirect="certifications" id="certifications">
+                    <img src="/images/icons/certification.png" style="width: 32px; height: 30px;">
+                    <h5 class="subsectionTitle">Certificaciones</h5>
+                </div>
+
+                <div class="subsectionHeader">
+                    <img src="/images/icons/skill.png" style="width: 30px; height: 30px;">
+                    <h5 class="subsectionTitle">Habilidades</h5>
+                </div>
+
+                <div class="subsectionHeader">
+                    <img src="/images/icons/phone.png" style="width: 30px; height: 30px;">
+                    <h5 class="subsectionTitle">Contacto</h5>
+                </div>
+            </div>
+
+            <div class="headerSection3">
+                <h5 class="updatedDate">Actualizado: Enero 21 de 2025</h5>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="projects">
+                <div class="project">
+                    <h4 class="titleProject" >REST API Forum Hub<a href="https://github.com/Andres-Bermudez/REST-API-Forum-Hub-Challenge"><img class="socialMediaIcon" src="images/icons/github.png"></a></h4>
+                    <p class="descriptionProject">
+                        Este proyecto es una API REST para un foro donde los participantes de
+                        una plataforma pueden publicar sus preguntas sobre determinados temas 📝.
+                        <br><br>
+                        La API fue desarrollada en Java ☕ con Spring Boot 🌿 y una base de datos
+                        en PostgreSQL 🐘, y cuenta con autenticación y autorización de usuarios
+                        mediante JSON Web Tokens (JWT) 🔑 para garantizar la seguridad 🔒 y
+                        validación de los datos, utilizando Spring Security 🛡️.
+                        <br><br>
+                        La API proporciona Endpoints para gestionar el foro de forma completa:
+                        permite crear nuevos temas 🏷️, visualizar los existentes 👀, actualizar
+                        o eliminar temas 🔄, generar respuestas a cualquier tema 💬 y también modificar
+                        o eliminar dichas respuestas ✂️.
+                        <br><br>
+                        GET: Para obtener los tópicos y respuestas generadas.
+                        <br><br>
+                        POST: Para crear usuarios, tópicos y respuestas.
+                        <br><br>
+                        PUT: Para actualizar la información de tópicos y respuestas creadas. Las entidades
+                        cuentan con la fecha de creación y la última fecha de actualización para realizar 
+                        seguimiento de cada cambio.
+                        <br><br>
+                        DELETE: Para realizar la eliminación lógica de tópicos y respuestas, con el
+                        fin de almacenar los registros para futuros análisis de datos de la plataforma.
+                        <br><br>
+                        La API cuenta con validadores ✅ que verifican si los datos que el usuario desea
+                        insertar, actualizar o eliminar cumplen con las reglas del negocio 📊.
+                        <br><br>
+                        📖 La API cuenta con documentación generada automáticamente mediante SpringDoc,
+                        una 🛠️ biblioteca que facilita la creación y mantenimiento de documentación de
+                        APIs REST siguiendo la especificación OpenAPI 3. Proporciona documentación
+                        interactiva, como 🧭 Swagger UI, basada en las definiciones de los controladores
+                        y modelos del proyecto.
+                        <br><br>
+                        Este proyecto es el 🎯 último challenge de la especialización en desarrollo
+                        backend con ☕ Java y 🌿 Spring Framework del programa 🎓 ONE – Oracle Next Education.
+                    </p>
+
+                    <div class="imagesProject">
+                        <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/swagger.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/forumHubERD.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/login.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/createTopic.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/listTopics.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Forum Hub/createAnswer.png">
+                    </div>
+
+                    <h5 class="subTitleProject">Tecnologías y Herramientas Utilizadas:</h5>
+                    <div class="techList">
+                        <div class="list">
+                            <ul class="descriptionProject">
+                                <li><strong>Java JDK Coretto 21.0.5</strong></li>
+                                <li><strong>Spring Boot 3.x</strong></li>
+                                <li><strong>Spring Data JPA</strong> (Gestión de base de datos)</li>
+                                <li><strong>Spring Security</strong> (Autenticación y Autorización)</li>
+                                <li><strong>JWT</strong> (JSON Web Tokens)</li>
+                                <li><strong>JUnit</strong> (Pruebas Unitarias)</li>
+                            </ul>
+                        </div>
+
+                        <div class="list">
+                            <ul class="descriptionProject">
+                                <li><strong>Lombok</strong> (Generación de código repetitivo)</li>
+                                <li><strong>Flyway</strong> (Migraciones de base de datos)</li>
+                                <li><strong>PostgreSQL</strong> (Base de datos relacional)</li>
+                                <li><strong>Maven</strong> (Gestor de dependencias)</li>
+                                <li><strong>Springdoc OpenAPI</strong> (Documentación para APIs REST)</li>
+                                <li><strong>IntelliJ IDEA</strong> (Entorno de Desarrollo Integrado)</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <h5 class="subTitleProject">Lo que aprendí con este proyecto:</h5>
+                    <p class="descriptionProject">
+                        Con este proyecto aprendí a desarrollar una API REST completa utilizando Java ☕ y Spring
+                        Boot 🌿, integrando funcionalidades clave como la gestión de usuarios 👥, autenticación y
+                        autorización mediante JSON Web Tokens (JWT) 🔑 para asegurar la protección de los datos 🔒.
+                        Además, adquirí experiencia en el uso de PostgreSQL 🐘 como base de datos, lo que me permitió
+                        gestionar eficientemente la persistencia de la información del foro.
+                        <br><br>
+                        Aprendí a implementar y manejar operaciones CRUD (crear, leer, actualizar, eliminar) sobre
+                        temas 🏷️ y respuestas 💬, además de integrar validadores ✅ para asegurar la correcta
+                        inserción y actualización de los datos, cumpliendo con las reglas de negocio 📊 del sistema.
+                        También profundicé en la configuración y uso de Spring Security 🛡️ para reforzar la seguridad
+                        de la aplicación.
+                        <br><br>
+                        Una de las partes más interesantes fue la integración de SpringDoc 📖, lo que me permitió
+                        generar automáticamente la documentación interactiva de la API mediante OpenAPI 3 🧭 y
+                        Swagger UI 🛠️, facilitando tanto el mantenimiento como la comprensión del proyecto. En general,
+                        este proyecto me permitió afianzar mis conocimientos en desarrollo de APIs seguras y bien
+                        documentadas, mejorando mis habilidades en la construcción de sistemas robustos y escalables.
+                    </p>
+
+                    <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/REST-API-Forum-Hub-Challenge">Visitar proyecto.</a></h4>
+                </div>
+
+                <div class="project">
+                    <h4 class="titleProject" >REST API Clinica Voll<a href="https://github.com/Andres-Bermudez/RESTapi-Clinica-Voll"><img class="socialMediaIcon" src="images/icons/github.png"></a></h4>
+                    <p class="descriptionProject">
+                        Este proyecto es una 🏥 API REST diseñada para una clínica, que permite la gestión de
+                        médicos, pacientes y citas médicas.  
+                        <br><br>
+                        La API fue desarrollada en ☕ Java con 🌿 Spring Boot y utiliza una base de datos MySQL.
+                        Cuenta con autenticación y autorización de usuarios mediante JSON Web Tokens (JWT) 🔑,
+                        garantizando la seguridad 🔒 y validación de los datos con Spring Security 🛡️.  
+                        <br><br>
+                        La API proporciona endpoints para gestionar la clínica de forma completa:  
+                        - 👨‍⚕️ Crear nuevos médicos, pacientes y citas agendadas.  
+                        - 👀 Visualizar los registros existentes.  
+                        - ✏️ Actualizar o eliminar datos de médicos, pacientes y citas.  
+                        - 📆 Generar nuevas citas según la disponibilidad de horarios de la clínica, la
+                         disponibilidad de los médicos de la especialidad requerida y las reglas de negocio.  
+                        - ❌ Cancelar citas si las reglas de negocio lo permiten.  
+                        <br><br>
+                        **Operaciones disponibles:**  
+                        <br><br>
+                        - **GET:** Obtener médicos de la clínica, pacientes y citas agendadas. 
+                        <br><br> 
+                        - **POST:** Crear nuevos médicos, pacientes y citas.
+                        <br><br>  
+                        - **PUT:** Actualizar la información de médicos, pacientes y citas agendadas. 
+                        <br><br> 
+                        - **DELETE:** Realizar la eliminación lógica de médicos, pacientes y citas, con el fin
+                        de conservar los registros para futuros análisis de datos 📊.  
+                        <br><br>
+                        La API cuenta con validadores ✅ que aseguran que los datos ingresados, actualizados o
+                        eliminados cumplan con las reglas de negocio.  
+                        <br><br>
+                        📖 La documentación de la API es generada automáticamente mediante SpringDoc, una 🛠️ 
+                        biblioteca que facilita la creación y mantenimiento de documentación de APIs REST
+                        siguiendo la especificación OpenAPI 3. Ofrece documentación interactiva, como 🧭 
+                        Swagger UI, basada en las definiciones de los controladores y modelos del proyecto.  
+                        <br><br>
+                        Este proyecto es uno de los 🎯 challenges de la especialización en desarrollo backend 
+                        con ☕ Java y 🌿 Spring Framework del programa 🎓 ONE – Oracle Next Education.
+                    </p>
+
+                    <div class="imagesProject">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/documentation.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/authentication.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/autorization.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/servletSpring.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/bussinesRules1.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/bussinesRules2.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/bussinesRules3.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/createDoctor.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/listDoctor.png">
+                        <img class="imageProject" id="image" src="images/projects/REST API Clinica Voll/patientList.png">
+                    </div>
+
+                    <h5 class="subTitleProject">Tecnologías y Herramientas Utilizadas:</h5>
+                    <div class="techList">
+                        <div class="list">
+                            <ul class="descriptionProject">
+                                <li><strong>Java JDK Coretto 21.0.5</strong></li>
+                                <li><strong>Spring Boot 3.x</strong></li>
+                                <li><strong>Spring Data JPA</strong> (Gestión de base de datos)</li>
+                                <li><strong>Spring Security</strong> (Autenticación y Autorización)</li>
+                                <li><strong>JWT</strong> (JSON Web Tokens)</li>
+                                <li><strong>JUnit</strong> (Pruebas Unitarias)</li>
+                            </ul>
+                        </div>
+
+                        <div class="list">
+                            <ul class="descriptionProject">
+                                <li><strong>Lombok</strong> (Generación de código repetitivo)</li>
+                                <li><strong>Flyway</strong> (Migraciones de base de datos)</li>
+                                <li><strong>MySQL</strong> (Base de datos relacional)</li>
+                                <li><strong>Maven</strong> (Gestor de dependencias)</li>
+                                <li><strong>Springdoc OpenAPI</strong> (Documentación para APIs REST)</li>
+                                <li><strong>IntelliJ IDEA</strong> (Entorno de Desarrollo Integrado)</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <h5 class="subTitleProject">Lo que aprendí con este proyecto:</h5>
+                    <p class="descriptionProject">
+                        Al realizar este proyecto, aprendí a desarrollar una API REST completa utilizando ☕ Java
+                        con 🌿 Spring Boot, aplicando principios clave para el desarrollo backend moderno.
+                        <br><br>
+                        Dominar Spring Security 🛡️ fue fundamental para implementar un sistema robusto de autenticación
+                        y autorización de usuarios mediante JSON Web Tokens (JWT) 🔑, lo que mejoró significativamente
+                        la seguridad 🔒 de la aplicación.
+                        <br><br>
+                        También profundicé en la gestión de bases de datos relacionales con MySQL y Spring Data JPA,
+                        facilitando la interacción con la base de datos a través de un enfoque orientado a objetos.
+                        Aprendí a crear entidades, relaciones y consultas eficientes utilizando Repositories y JPQL,
+                        asegurando la integridad y validación de los datos mediante validadores ✅ que garantizan el
+                        cumplimiento de las reglas de negocio 📊.
+                        <br><br>
+                        Un aspecto fundamental fue la implementación de pruebas unitarias 🧪 con JUnit y Mockito,
+                        lo que me permitió validar el correcto funcionamiento de los componentes de la aplicación
+                        de manera aislada, garantizando la calidad y fiabilidad del código. Aprendí a simular
+                        dependencias y a realizar pruebas automatizadas para verificar tanto la lógica de negocio
+                        como la seguridad de la API.
+                        <br><br>
+                        Aprendí a estructurar un proyecto siguiendo buenas prácticas de diseño, aplicando principios
+                        SOLID y separación de responsabilidades, lo que hizo el código más mantenible y escalable.
+                        <br><br>
+                        Otro aspecto clave fue la documentación de la API con SpringDoc y 🧭 Swagger UI, lo que facilitó
+                        la generación automática de una documentación clara e interactiva, siguiendo la especificación
+                        OpenAPI 3 📖.
+                    </p>
+
+                    <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/RESTapi-Clinica-Voll">Visitar proyecto.</a></h4>
+                </div>
+
+                <div class="project">
+                    <h4 class="titleProject" >Market API<a href="https://github.com/Andres-Bermudez/Market-REST-API"><img class="socialMediaIcon" src="images/icons/github.png"></a></h4>
+                    <p class="descriptionProject">
+                        Este proyecto es una 🛒 API REST diseñada para un supermercado, que permite la
+                        gestión de 👥 clientes, 🛍️ productos y 🛒 compras.
+                        <br><br>
+                        La API fue desarrollada en ☕ Java con 🌿 Spring Boot y utiliza PostgreSQL 🐘 
+                        como base de datos y Gradle como gestor de dependencias. Ofrece funcionalidades como: 
+                        <br><br>
+                        - 📋 Ver la lista de productos disponibles<br><br>
+                        - 🔍 Buscar productos por categoría, stock o ID<br><br>
+                        - ➕ Crear y ❌ eliminar productos
+                        <br><br>
+                        También permite gestionar las compras: 
+                        <br><br>
+                        - 🛒 Obtener las compras realizadas<br><br>
+                        - 🔍 Buscar compras por ID de cliente o compra<br><br>
+                        - ➕ Crear y ❌ eliminar compras
+                        <br><br>
+                        El proyecto sigue una arquitectura orientada al dominio y aplica patrones de 
+                        diseño como DAO y Repository. Además, utiliza Spring Data JPA para interactuar 
+                        con la base de datos, incluyendo métodos personalizados en JPQL.
+                    </p>
+
+                    <div class="imagesProject">
+                        <img class="imageProject" id="image" src="images/projects/Market REST API/schemaDB.png">
+                        <img class="imageProject" id="image" src="images/projects/Market REST API/listProducts.png">
+                        <img class="imageProject" id="image" src="images/projects/Market REST API/findProductById.png">
+                        <img class="imageProject" id="image" src="images/projects/Market REST API/findByStock.png">
+                        <img class="imageProject" id="image" src="images/projects/Market REST API/purchasesList.png">
+                        <img class="imageProject" id="image" src="images/projects/Market REST API/purchaseById.png">
+                    </div>
+
+                    <h5 class="subTitleProject">Tecnologías y Herramientas Utilizadas:</h5>
+                    <div class="techList">
+                        <div class="list">
+                            <ul class="descriptionProject">
+                                <li><strong>Java JDK Coretto 21.0.5</strong></li>
+                                <li><strong>Spring Boot 3.x</strong></li>
+                                <li><strong>Spring Web MVC</strong> (Para exponer la API en la web)</li>
+                                <li><strong>Spring Data JPA</strong> (Gestión de base de datos)</li>
+                                <li><strong>PostgreSQL</strong> (Base de datos relacional)</li>
+                                <li><strong>IntelliJ IDEA</strong> (Entorno de Desarrollo Integrado)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h5 class="subTitleProject">Lo que aprendí con este proyecto:</h5>
+                    <p class="descriptionProject">
+                        Al realizar este proyecto, aprendí a desarrollar una API REST eficiente y escalable
+                        utilizando ☕ Java y 🌿 Spring Boot, integrando PostgreSQL 🐘 como sistema de gestión
+                        de bases de datos. Mejoré mis habilidades en la implementación de funcionalidades clave
+                        como la gestión de 🛍️ productos y 🛒 compras, y aprendí a estructurar el código con
+                        patrones de diseño como DAO 🏗️ y Repository 📦 para asegurar la mantenibilidad y
+                        flexibilidad del sistema.
+                        <br><br>
+                        Además, comprendí la importancia de la arquitectura orientada al dominio 🏢, lo que me 
+                        permitió desarrollar un sistema más organizado y alineado con los requerimientos del 
+                        negocio. También adquirí experiencia en la creación de consultas personalizadas usando 🔍
+                        JPQL con Spring Data JPA para interactuar de manera eficiente con la base de datos. 
+                        Este proyecto me brindó una comprensión más profunda sobre cómo manejar operaciones 
+                        CRUD ➕❌, optimizar consultas y aplicar buenas prácticas en el desarrollo de software 💻.
+                    </p>
+
+                    <h4 class="titleLinkProject">Para ver el codigo del proyecto: <a class="linkProject" href="https://github.com/Andres-Bermudez/Market-REST-API">Visitar proyecto.</a></h4>
+                </div>
+            </div>
+        </main>
+
+        <script src="scripts/script.js" defer></script>
+    </body>
+</html>
