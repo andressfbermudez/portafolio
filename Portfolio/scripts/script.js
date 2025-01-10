@@ -1,21 +1,21 @@
 // Redireccionar hacia index.html
 document.querySelectorAll('[data-redirect="start"]').forEach(element => {
-        element.onclick = () => window.location.href = 'index.html';
+        element.onclick = () => window.location.href = '/index.html';
 });
 
 // Redireccionar hacia about.html
 document.querySelectorAll('[data-redirect="about"]').forEach(element => {
-        element.onclick = () => window.location.href = 'about.html';
+        element.onclick = () => window.location.href = '/pages/about.html';
 });
 
 // Redireccionar hacia certifications.html
 document.querySelectorAll('[data-redirect="certifications"]').forEach(element => {
-        element.onclick = () => window.location.href = 'certifications.html';
+        element.onclick = () => window.location.href = '/pages/certifications.html';
 });
 
 // Redireccionar hacia certifications.html
 document.querySelectorAll('[data-redirect="projects"]').forEach(element => {
-        element.onclick = () => window.location.href = 'projects.html';
+        element.onclick = () => window.location.href = '/pages/projects.html';
 });
 
 // Redireccionar hacia mi perfil de GitHub
