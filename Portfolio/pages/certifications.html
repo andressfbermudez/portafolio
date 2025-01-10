@@ -34,7 +34,7 @@
                     <h5 class="subsectionTitle">Proyectos</h5>
                 </div>
 
-                <div class="subsectionHeader">
+                <div class="subsectionHeader" data-redirect="education" id="education">
                     <img src="/images/icons/book.png" style="width: 35px; height: 30px;">
                     <h5 class="subsectionTitle">Educación</h5>
                 </div>
@@ -44,12 +44,7 @@
                     <h5 class="subsectionTitle">Certificaciones</h5>
                 </div>
 
-                <div class="subsectionHeader">
-                    <img src="/images/icons/skill.png" style="width: 30px; height: 30px;">
-                    <h5 class="subsectionTitle">Habilidades</h5>
-                </div>
-
-                <div class="subsectionHeader">
+                <div class="subsectionHeader" id="subsectionHeaderContact">
                     <img src="/images/icons/phone.png" style="width: 30px; height: 30px;">
                     <h5 class="subsectionTitle">Contacto</h5>
                 </div>
@@ -59,6 +54,20 @@
                 <h5 class="updatedDate">Actualizado: Enero 21 de 2025</h5>
             </div>
         </header>
+
+        <div class="contactMenu" id="contactMenu">
+            <div class="developer">
+                <img class="photoProfileDeveloper" src="/images/images/profile.jpeg">
+                <h5 class="nameDeveloper">Andrés Bermúdez</h5>
+            </div>
+            <h5 class="skillsDeveloper">Desarrollador Backend | Java | Spring | Bases de datos | Linux</h5>
+
+            <div class="linksDeveloperContact">
+                <h5 class="linkDeveloperContact" data-redirect="linkedin"><img class="iconMediaContactDeveloper" data-redirect="linkedin" src="/images/icons/linkedin.png">LinkedIn</h5>
+                <h5 class="linkDeveloperContact" data-redirect="github"><img class="iconMediaContactDeveloper" data-redirect="github" src="/images/icons/github.png">GitHub</h5>
+                <h5 class="linkDeveloperContact" data-redirect="whatsapp"><img class="iconMediaContactDeveloper" data-redirect="whatsapp" src="/images/icons/whatsapp.png">Whatsapp</h5>
+            </div>
+        </div>
 
         <main class="main">
             <div class="certifications">
@@ -158,6 +167,34 @@
                 </div>
             </div>
         </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Sobre Mí</h3>
+                    <p>Desarrollador Backend especializado en Java con Spring Boot.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="/index.html">🔗 Inicio</a></li>
+                        <li><a href="/pages/projects.html">🔗 Proyectos</a></li>
+                        <li><a href="/pages/certifications.html">🔗 Certificaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <div class="social-icons">
+                        <img class="socialMediaIcon" data-redirect="github" src="/images/icons/github.png">
+                        <img class="socialMediaIcon" data-redirect="linkedin" src="/images/icons/linkedin.png">
+                        <img class="socialMediaIcon" data-redirect="whatsapp" src="/images/icons/whatsapp.png">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Andrés Bermúdez | Todos los derechos reservados.</p>
+            </div>
+        </footer>
 
         <script src="/scripts/script.js" defer></script>
     </body>

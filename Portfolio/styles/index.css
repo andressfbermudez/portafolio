@@ -66,7 +66,68 @@ html, body {
     align-items: end;
     padding: 0 1rem 0.4rem 0;
 }
-    
+.contactMenu {
+    top: 5.3rem;
+    position: fixed;
+    width: 15rem;
+    height: 19rem;
+    margin: 0 0 0 52.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+    .developer {
+        width: 90%;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0.3rem 0;
+        border-bottom: solid 1px black;
+    }
+        .photoProfileDeveloper {
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 100%;
+        }
+        .nameDeveloper {
+            font-size: 0.9rem;
+            margin: 0 0 0 0.5rem;
+        }
+    .skillsDeveloper {
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0 1rem 0 1rem;
+    }
+    .linksDeveloperContact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding: 1rem;
+    }
+        .iconMediaContactDeveloper {
+            width: 2rem;
+            margin: 0 0.5rem 0 0;
+        }
+        .linkDeveloperContact {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 0.9rem;
+            transition: 0.6s;
+        }
+            .linkDeveloperContact:hover {
+                cursor: pointer;
+                transform: scale(1.05);
+            }
+        
 .main {
     display: flex;
     flex-direction: row;
@@ -246,3 +307,54 @@ html, body {
             font-weight: 300;
             margin-top: 1rem;
         }
+
+footer {
+    background: #e6e6e6;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    margin-top: 1rem;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+.footer-section ul li a:hover {
+    opacity: 1;
+}
+.social-icons a {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}

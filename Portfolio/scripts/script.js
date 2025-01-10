@@ -18,6 +18,11 @@ document.querySelectorAll('[data-redirect="projects"]').forEach(element => {
         element.onclick = () => window.location.href = '/pages/projects.html';
 });
 
+// Redireccionar hacia certifications.html
+document.querySelectorAll('[data-redirect="education"]').forEach(element => {
+        element.onclick = () => window.location.href = '/pages/education.html';
+});
+
 // Redireccionar hacia mi perfil de GitHub
 document.querySelectorAll('[data-redirect="github"]').forEach(element => {
         element.onclick = () => window.location.href = 'https://github.com/Andres-Bermudez';
@@ -49,4 +54,17 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
         console.warn("No se encontraron elementos con la clase 'imagen'.");
     }
+});
+
+// Activar div de contacto.
+const boton = document.getElementById("subsectionHeaderContact");
+const div = document.getElementById("contactMenu");
+
+boton.addEventListener("click", function(event) {
+    div.style.display = div.style.display === "flex" ? "none" : "flex";
+    event.stopPropagation(); // Evita que el clic en el botón se propague al body
+});
+
+document.body.addEventListener("click", function() {
+    div.style.display = "none";
 });
