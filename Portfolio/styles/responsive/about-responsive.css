@@ -1,0 +1,88 @@
+@media (max-width: 768px) {
+
+    .headerSection1, .headerSection3 {
+        display: none;
+    }
+    .headerSection2 {
+        width: 100%;
+        gap: 0;
+    }
+    .subsectionHeader {
+        width: 16.6%;
+    }  
+        .subsectionTitle {
+            font-size: 0.6rem;
+        }
+
+    .contactMenu {
+        margin: 0 0 0 8rem;
+    }
+
+    .main {
+        margin: 5rem 0 0 0;
+    }
+    .about {
+        width: 100%;
+        padding: 1rem;
+    }
+    .divAndres {
+        flex-direction: column;
+    }
+    .imageAndData {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divProfession{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profession {
+        font-size: 1.8rem;
+        font-weight: 900;
+        justify-content: center;
+        align-items: center;
+    } 
+    .name {
+        font-size: 2.3rem;
+        font-weight: 900;
+        margin: 0;
+    }
+    .socialMedia {
+        flex-direction: column;
+        margin: 2rem 0 0 0;
+    }
+        .socialMediaIcon {
+            width: 3rem;
+            height: 3rem;
+        }
+    .gif {
+        display: none;
+    }
+    .divMilitarImages {
+        flex-direction: column;
+    } 
+        .aboutImage {
+            width: 100%;
+        }   
+
+    footer {
+        margin: 0;
+    }
+        .footer-container {
+            gap: 2.5rem;
+        }
+        .footer-section p {
+            text-align: center;
+        }
+        .footer-bottom  {
+            display: flex;
+            justify-content: center;
+        }
+            .footer-bottom p {
+                width: 15rem;
+            }
+}

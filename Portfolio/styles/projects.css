@@ -24,6 +24,7 @@ html, body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .headerSection1 {
@@ -44,7 +45,11 @@ html, body {
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-  }
+}
+.iconSubSectionHeader {
+    width: 30px;
+    height: 30px;
+}
 #projects {
     border-bottom: solid 2px black;
 }
@@ -136,16 +141,19 @@ html, body {
     gap: 1.5rem;
     box-sizing: border-box;
 }
+    .mobileIndex {
+        display: none;
+    }
     .indexProjects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         top: 6rem;
         position:sticky;
         width: 22%;
         height: 36rem;
         border-radius: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
         padding: 2rem;
         background-color: white;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -202,7 +210,6 @@ html, body {
                 height: 2.3rem;
                 width: 2.3rem;
                 transition: 0.3s;
-                margin: 0 0 0 1rem;
             }
                 .socialMediaIcon:hover {
                     cursor: pointer;
@@ -295,7 +302,6 @@ footer {
 .footer-section ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    opacity: 0.8;
     transition: opacity 0.3s;
 }
 .footer-section ul li a:hover {

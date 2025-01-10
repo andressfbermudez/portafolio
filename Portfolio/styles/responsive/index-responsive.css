@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+
+    .headerSection1, .headerSection3 {
+        display: none;
+    }
+    .headerSection2 {
+        width: 100%;
+        gap: 0;
+    }
+    .subsectionHeader {
+        width: 16.6%;
+    }  
+        .subsectionTitle {
+            font-size: 0.6rem;
+        }
+
+    .contactMenu {
+        margin: 0 0 0 8rem;
+    }
+
+    .main {
+        flex-direction: column;
+        margin: 5rem 0 0 0;
+        gap: 0;
+    }
+        .section1 {
+            width: 100%;
+            height: 30rem;
+            position: static;
+            padding: 1rem;
+        }
+            .name {
+                font-size: 2rem;
+            }
+            .socialMediaIcon {
+                width: 3rem;
+                height: 3rem;
+            }
+        .section2 {
+            width: 100%;
+            margin: 0;
+            padding: 1rem;
+        }
+        .section3 {
+            display: none;
+        }
+    .titleFeatureProjects {
+        font-size: 1.9rem;
+        font-weight: 700;
+    }
+    .titleLinkProject {
+        font-size: 1.5rem;
+    }
+        .linkProject {
+            font-size: 1.5rem;
+        }
+
+    footer {
+        margin: 0;
+    }
+        .footer-container {
+            gap: 2.5rem;
+        }
+        .footer-section p {
+            text-align: center;
+        }
+        .footer-bottom  {
+            display: flex;
+            justify-content: center;
+        }
+            .footer-bottom p {
+                width: 15rem;
+            }
+}

@@ -44,7 +44,11 @@ html, body {
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-  }
+}
+.iconSubSectionHeader {
+    width: 30px;
+    height: 30px;
+}
 #education {
     border-bottom: solid 2px black;
 }

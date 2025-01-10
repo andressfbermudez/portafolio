@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+
+    .headerSection1, .headerSection3 {
+        display: none;
+    }
+    .headerSection2 {
+        width: 100%;
+        gap: 0;
+    }
+    .subsectionHeader {
+        width: 16.6%;
+    }  
+        .subsectionTitle {
+            font-size: 0.6rem;
+        }
+
+    .contactMenu {
+        margin: 0 0 0 8rem;
+    }
+
+    .main {
+        flex-direction: column;
+        margin: 5rem 0 0 0;
+    }
+        .certifications {
+            width: 100%;
+            padding: 1rem;
+        }
+            .titleCertifications {
+                width: 100%;
+                font-size: 2.5rem;
+            }
+            .titleInstitutionCertifications {
+                font-size: 2rem;
+            }
+            .certificationImage {
+                width: 47%;
+                height: auto;
+            }
+
+    footer {
+        margin: 0;
+    }
+        .footer-container {
+            gap: 2.5rem;
+        }
+        .footer-section p {
+            text-align: center;
+        }
+        .footer-bottom  {
+            display: flex;
+            justify-content: center;
+        }
+            .footer-bottom p {
+                width: 15rem;
+            }
+}

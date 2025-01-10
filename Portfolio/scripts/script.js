@@ -57,14 +57,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Activar div de contacto.
-const boton = document.getElementById("subsectionHeaderContact");
-const div = document.getElementById("contactMenu");
+const subsectionHeaderContact = document.getElementById("subsectionHeaderContact");
+const contactMenu = document.getElementById("contactMenu");
 
-boton.addEventListener("click", function(event) {
-    div.style.display = div.style.display === "flex" ? "none" : "flex";
+subsectionHeaderContact.addEventListener("click", function(event) {
+    contactMenu.style.display = contactMenu.style.display === "flex" ? "none" : "flex";
     event.stopPropagation(); // Evita que el clic en el botón se propague al body
 });
 
 document.body.addEventListener("click", function() {
-    div.style.display = "none";
+    contactMenu.style.display = "none";
 });
