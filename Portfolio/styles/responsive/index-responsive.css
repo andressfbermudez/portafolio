@@ -25,12 +25,16 @@
     }
         .section1 {
             width: 100%;
-            height: 30rem;
+            height: auto;
             position: static;
             padding: 1rem;
         }
+            .photoProfile {
+                width: 10rem;
+                height: 10rem;
+            }
             .name {
-                font-size: 2rem;
+                font-size: 2.3rem;
             }
             .socialMediaIcon {
                 width: 3rem;
@@ -41,19 +45,42 @@
             margin: 0;
             padding: 1rem;
         }
-        .section3 {
-            display: none;
+        .titleProject {
+            font-size: 2rem;
         }
-    .titleFeatureProjects {
-        font-size: 1.9rem;
-        font-weight: 700;
-    }
-    .titleLinkProject {
-        font-size: 1.5rem;
-    }
-        .linkProject {
+        .titleFeatureProjects {
+            font-size: 1.8rem;
+        }
+        .titleLinkProject {
             font-size: 1.5rem;
         }
+            .linkProject {
+                font-size: 1.5rem;
+            }
+.section3 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+}   
+    .titleCertifications {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .certifications {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        box-sizing: border-box;
+    }
+    .certificationImage {
+        width: 47%;
+        height: auto;
+    }
+    .noteProjects2, .noteCertifications {
+        text-align: center;
+    }
 
     footer {
         margin: 0;

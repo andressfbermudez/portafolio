@@ -149,6 +149,9 @@ html, body {
         background-color: white;
         border: 1px solid rgba(0, 0, 0, 0.1);
     }
+    .divAndresMobile {
+        display: none;
+    }
     .divAndres {
         width: 100%;
         height: auto;
@@ -157,10 +160,11 @@ html, body {
         .imageAndData {
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
         }
         .divPhotoProfile {
             width: auto;
-            margin: 0 1rem 0 0;
+            margin: 0 0 0 4rem;
         }
             .photoProfile {
                 height: 10rem;
@@ -173,17 +177,17 @@ html, body {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            margin: 0 3rem 0 0;
         }
             .profession {
                 color: rgb(193, 138, 20);
-                font-size: 1.8rem;
+                font-size: 2.2rem;
             }
         .divLocation {
             width: auto;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            margin: 0 2rem 0 0;
         }
             .location {
                 font-size: 1.2rem;
@@ -192,21 +196,32 @@ html, body {
                 height: 1.2rem;
                 width: 1.2rem;
             }
-        .name {
-            font-size: 2.8rem;
-            font-weight: 930;
-            margin: 0 25rem 0 0;
-        }
         .socialMedia {
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             align-items: center;
-            gap: 1rem;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
+        .name {
+            width: 50%;
+            font-size: 2.8rem;
+            font-weight: 930;
+        }
+            .gifName {
+                width: 2.8;
+                height: 2.8rem;
+            }
+        .linskContactAbout {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0 2rem 0 0;
+            gap: 1rem;
+        }
             .socialMediaIcon {
-                height: 2rem;
-                width: 2rem;
+                width: 2.8rem;
+                height: auto;
                 transition: 0.3s;
             }
             .socialMediaIcon:hover {
@@ -304,15 +319,6 @@ footer {
     margin-right: 10px;
     font-size: 1.5rem;
     text-decoration: none;
-}
-.socialMediaIcon {
-    height: 2rem;
-    width: 2rem;
-    transition: 0.3s;
-}
-.socialMediaIcon:hover {
-    cursor: pointer;
-    transform: scale(1.03);
 }
 .footer-bottom {
     text-align: center;

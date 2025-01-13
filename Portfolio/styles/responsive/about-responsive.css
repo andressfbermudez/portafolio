@@ -26,35 +26,27 @@
         padding: 1rem;
     }
     .divAndres {
-        flex-direction: column;
+        display: none;
     }
-    .imageAndData {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .divProfession{
-        width: 100%;
-        margin: 0;
+    .divAndresMobile {
         display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .profession {
-        font-size: 1.8rem;
-        font-weight: 900;
-        justify-content: center;
-        align-items: center;
-    } 
-    .name {
-        font-size: 2.3rem;
-        font-weight: 900;
-        margin: 0;
-    }
-    .socialMedia {
         flex-direction: column;
-        margin: 2rem 0 0 0;
+        justify-content: center;
+        align-items: center;
     }
+        .nameMobile {
+            font-size: 2.3rem;
+            font-weight: 900;
+        }
+        .professionMobile {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: rgb(223, 157, 15);
+        }
+        .linskContactAbout {
+            padding: 0;
+            margin: 0.5rem 0 1rem 0;
+        }
         .socialMediaIcon {
             width: 3rem;
             height: 3rem;

@@ -236,8 +236,8 @@ footer {
     text-decoration: none;
 }
 .socialMediaIcon {
-    height: 2rem;
-    width: 2rem;
+    height: auto;
+    width: 2.8rem;
     transition: 0.3s;
 }
 .socialMediaIcon:hover {

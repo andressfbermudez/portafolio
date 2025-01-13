@@ -166,7 +166,8 @@ html, body {
         }
         .name {
             margin: 0 0 0.8rem 0;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
+            font-weight: 900;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
             .name, .photoProfile:hover {
@@ -194,8 +195,8 @@ html, body {
             gap: 1rem;
         }
             .socialMediaIcon {
-                height: 2rem;
-                width: 2rem;
+                width: 3rem;
+                height: 3rem;
                 transition: 0.3s;
             }
             .socialMediaIcon:hover {
@@ -216,6 +217,7 @@ html, body {
             margin: 0 0 1.5rem 0;
         }
         .titleFeatureProjects {
+            font-weight: 900;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
         .featureProjects {
