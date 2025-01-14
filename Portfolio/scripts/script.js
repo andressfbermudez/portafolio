@@ -33,9 +33,9 @@ document.querySelectorAll('[data-redirect="linkedin"]').forEach(element => {
         element.onclick = () => window.location.href = 'https://www.linkedin.com/in/andresfbermudez-in/';
 });
 
-// Redireccionar hacia mi chat de whatsapp
-document.querySelectorAll('[data-redirect="whatsapp"]').forEach(element => {
-        element.onclick = () => window.location.href = 'https://wa.me/3133740300?text=Hola Andrés!';
+// Redireccionar hacia un mensaje por correo
+document.querySelectorAll('[data-redirect="outlook"]').forEach(element => {
+        element.onclick = () => window.location.href = 'https://outlook.office.com/mail/deeplink/compose?to={Andres201900@outlook.com}';
 });
 
 // Para abrir imagenes en pantalla completa.
