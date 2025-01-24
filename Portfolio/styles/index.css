@@ -216,8 +216,52 @@ html, body {
             font-weight: 500;
             margin: 0 0 1.5rem 0;
         }
+        .titleGraduateONE {
+            width: 100%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin: 0 0 1rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        .ONE {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            margin: 0 0 2rem 0;
+        }
+            .graduateONE {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0 1rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            }
+                .imageGraduateONE {
+                    width: 50%;
+                    height: 17rem;
+                    border-radius: 8px;
+                    transition: 0.3s;
+                    margin: 0 0 1rem 0;
+                    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
+                }
+            .processStudentONE {
+                display: flex;
+                justify-content: space-between;
+            }
+                .imageCertificationONE {
+                    width: 32%;
+                    border-radius: 8px;
+                    transition: 0.3s;
+                    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
+                }
+            .imageCertificationONE:hover, .imageGraduateONE:hover {
+                cursor: pointer;
+                transform: scale(1.03);
+            }
         .titleFeatureProjects {
             font-weight: 900;
+            font-size: 2rem;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
         .featureProjects {
@@ -241,6 +285,7 @@ html, body {
                 margin: 0 0 0.8rem 0;
             }
             .imagesProject {
+                width: 100%;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -249,8 +294,8 @@ html, body {
                 margin: 0 0 0.8rem 0;
             }
                 .imageProject {
-                    width: 30%;
-                    height: 5rem;
+                    width: 32%;
+                    height: auto;
                     border-radius: 0.3rem;
                     box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
                     transition: 0.3s;

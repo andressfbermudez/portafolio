@@ -172,30 +172,6 @@ html, body {
                 border-radius: 100%;
                 border: solid 1px black;
             }
-        .divProfession {
-            width: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
-            .profession {
-                color: rgb(193, 138, 20);
-                font-size: 2.2rem;
-            }
-        .divLocation {
-            width: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            margin: 0 2rem 0 0;
-        }
-            .location {
-                font-size: 1.2rem;
-            }
-            .locationIcon {
-                height: 1.2rem;
-                width: 1.2rem;
-            }
         .socialMedia {
             display: flex;
             justify-content: center;

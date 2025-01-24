@@ -227,6 +227,7 @@ html, body {
             flex-wrap: wrap; 
             gap: 1.5rem;
             margin: 2rem 0 0 0;
+            padding: 0;
         }
             .imageProject {
                 width: 48%;

@@ -38,11 +38,6 @@
             font-size: 2.3rem;
             font-weight: 900;
         }
-        .professionMobile {
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: rgb(223, 157, 15);
-        }
         .linskContactAbout {
             padding: 0;
             margin: 0.5rem 0 1rem 0;
@@ -54,9 +49,6 @@
     .gif {
         display: none;
     }
-    .divMilitarImages {
-        flex-direction: column;
-    } 
         .aboutImage {
             width: 100%;
         }   

@@ -26,7 +26,7 @@
         .indexProjects {
             display: none;
             width: 80%;
-            height: 32rem;
+            height: 34rem;
             position: fixed;
             margin: 0 0 0 1rem;
             border: 1px solid rgba(0, 0, 0, 0.2);
@@ -51,6 +51,7 @@
             .titleProject {
                 font-size: 2.3rem;
                 font-weight: 900;
+                text-align: center;
             }
             .socialMediaIcon {
                 width: 3rem;
@@ -63,6 +64,7 @@
             .subTitleProject {
                 font-size: 1.7rem;
                 font-weight: 800;
+                text-align: center;
             }
             .list {
                 margin: 0 1rem 0 1.2rem;
@@ -71,7 +73,9 @@
                     margin: 0 0 1rem 0;
                 }
             .titleLinkProject {
-                font-size: 1.8rem;
+                font-size: 1.3rem;
+                font-weight: 800;
+                text-align: center;
             }
 
     footer {
