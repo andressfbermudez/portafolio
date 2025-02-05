@@ -102,11 +102,6 @@ html, body {
             font-size: 0.9rem;
             margin: 0 0 0 0.5rem;
         }
-    .skillsDeveloper {
-        font-size: 0.9rem;
-        font-weight: 500;
-        margin: 0 1rem 0 1rem;
-    }
     .linksDeveloperContact {
         width: 100%;
         display: flex;

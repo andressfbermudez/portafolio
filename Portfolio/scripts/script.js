@@ -25,12 +25,12 @@ document.querySelectorAll('[data-redirect="education"]').forEach(element => {
 
 // Redireccionar hacia mi perfil de GitHub
 document.querySelectorAll('[data-redirect="github"]').forEach(element => {
-        element.onclick = () => window.location.href = 'https://github.com/Andres-Bermudez';
+        element.onclick = () => window.location.href = 'https://github.com/andressfbermudez';
 });
 
 // Redireccionar hacia mi perfil de LinkedIn
 document.querySelectorAll('[data-redirect="linkedin"]').forEach(element => {
-        element.onclick = () => window.location.href = 'https://www.linkedin.com/in/andresfbermudez-in/';
+        element.onclick = () => window.location.href = 'https://www.linkedin.com/in/andressfbermudez/';
 });
 
 // Redireccionar hacia un mensaje por correo

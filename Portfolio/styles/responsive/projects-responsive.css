@@ -57,6 +57,10 @@
                 width: 3rem;
                 height: 3rem;
             }
+            .videoProject {
+                width: 100%;
+                height: 300px;
+            }
             .imageProject {
                 width: 100%;
                 height: 12.5rem;
