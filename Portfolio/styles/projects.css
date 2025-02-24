@@ -94,13 +94,13 @@ html, body {
         margin: 0 0 0.3rem 0;
         border-bottom: solid 1px black;
     }
-        .photoProfileDeveloper {
-            width: 3.5rem;
-            height: 3.5rem;
+        .photoProfileContact {
+            width: 3rem;
+            height: 3rem;
             border-radius: 100%;
         }
         .nameDeveloper {
-            font-size: 0.9rem;
+            font-size: 1rem;
             margin: 0 0 0 0.5rem;
         }
     .skillsDeveloper {
@@ -131,7 +131,7 @@ html, body {
                 cursor: pointer;
                 transform: scale(1.05);
             }
-
+            
 .main {
     width: 100%;
     display: flex;
@@ -220,14 +220,19 @@ html, body {
             font-weight: 500;
             margin: 0 0 0.8rem 0;
         }
-        .videoProject {
+        .video-container {
             margin: 1.5rem 0 0 0;
-            width: 100%;
-            height: 450px;
-            max-width: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            height: auto;
             aspect-ratio: 16 / 9;
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
         }
         .imagesProject {
             display: flex;

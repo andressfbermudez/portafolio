@@ -93,13 +93,13 @@ html, body {
         margin: 0 0 0.3rem 0;
         border-bottom: solid 1px black;
     }
-        .photoProfileDeveloper {
-            width: 3.5rem;
-            height: 3.5rem;
+        .photoProfileContact {
+            width: 3rem;
+            height: 3rem;
             border-radius: 100%;
         }
         .nameDeveloper {
-            font-size: 0.9rem;
+            font-size: 1rem;
             margin: 0 0 0 0.5rem;
         }
     .skillsDeveloper {

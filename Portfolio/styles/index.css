@@ -95,13 +95,13 @@ html, body {
         margin: 0 0 0.3rem 0;
         border-bottom: solid 1px black;
     }
-        .photoProfileDeveloper {
-            width: 3.5rem;
-            height: 3.5rem;
+        .photoProfileContact {
+            width: 3rem;
+            height: 3rem;
             border-radius: 100%;
         }
         .nameDeveloper {
-            font-size: 0.9rem;
+            font-size: 1rem;
             margin: 0 0 0 0.5rem;
         }
     .skillsDeveloper {
@@ -147,7 +147,7 @@ html, body {
         position: sticky;
         background-color: rgb(255, 255, 255);
         width: 18%;
-        height: 35rem;
+        height: 39rem;
         border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
@@ -157,8 +157,8 @@ html, body {
         border: 1px solid rgba(0, 0, 0, 0.1);
     }
         .photoProfile {
-            width: 6rem;
-            height: 6rem;
+            width: 9rem;
+            height: 8rem;
             border-radius: 100%;
             border: solid 1px black;
             margin: 0 0 0.8rem 0;
@@ -221,14 +221,13 @@ html, body {
             text-align: center;
             font-size: 1.5rem;
             font-weight: 900;
-            margin: 0 0 1rem 0;
+            margin: 2rem 0 1rem 0;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         }
         .ONE {
             display: flex;
             flex-direction: column;
             height: auto;
-            margin: 0 0 2rem 0;
         }
             .graduateONE {
             display: flex;
@@ -283,6 +282,20 @@ html, body {
                 font-size: 1rem;
                 font-weight: 500;
                 margin: 0 0 0.8rem 0;
+            }
+            .video-container {
+                margin: 1.5rem 0 1.5rem 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: auto;
+                aspect-ratio: 16 / 9;
+            }
+            .video-container iframe {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
             }
             .imagesProject {
                 width: 100%;
