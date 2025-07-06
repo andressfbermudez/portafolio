@@ -1,0 +1,72 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 0 0;
+}
+
+.certifications {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.institutionCertifications {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    margin: 0;
+}
+
+.certificationImage {
+    width: 19%;
+    height: 12rem;
+    border-radius: 0.4rem;
+    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.certificationImage:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.fullscreenImage {
+    cursor: zoom-in;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .certifications {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .titleCertifications {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .titleInstitutionCertifications {
+        font-size: 1.6rem;
+    }
+
+    .certificationImage {
+        width: 47%;
+        height: auto;
+    }
+}
