@@ -80,7 +80,7 @@ const About = () => {
                             📌Ver certificaciones.
                         </Link>
                         <br /><br />
-                        🎓 Estudiante de Ingeniería de Software en el Politécnico Grancolombiano.
+                        🎓👨‍💻 Estudiante de Ingeniería de Software en el Politécnico Grancolombiano.
                         <br /><br />
                         Mi interés por la programación comenzó a los 12 años gracias a los videojuegos 🎮. Modifiqué
                         modelos 🖌️, creé configuraciones 🛠️ y scripts 📜. En ese momento no sabía que eso era programación 🧑‍💻. Era solo diversión 🎯, pero se convirtió
