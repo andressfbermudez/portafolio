@@ -39,7 +39,7 @@ function Header() {
             </nav>
 
             <div className={styles.headerSection3}>
-                <h5 className={styles.updatedDate}>Actualizado: Julio 7 de 2025</h5>
+                <h5 className={styles.updatedDate}>Actualizado: Julio 19 de 2025</h5>
             </div>
         </header>
     );

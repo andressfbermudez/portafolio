@@ -66,7 +66,7 @@ const About = () => {
 
                 <section className={styles.descriptionAbout}>
                     <p>
-                        Desarrollador de software 👨‍💻 especializado en backend, con experiencia en aplicaciones
+                        Desarrollador de software 👨‍💻 especializado en backend, con experiencia en desarrollo de aplicaciones
                         web usando Java (Spring Boot) ☕ y Python (FastAPI) 🐍. Conocimientos en bases de datos
                         relacionales (SQL) 🗄️.
                         Experiencia en APIs RESTful 🔗, web apps 🌐, escritorio 🖥️ y administración de servidores
