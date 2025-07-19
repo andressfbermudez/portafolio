@@ -81,13 +81,15 @@ function Home() {
                     Andrés Bermúdez
                 </h3>
                 <p className={styles.description}>
-                    Desarrollador de software 👨‍💻 especializado en backend, con experiencia en
-                    Java (Spring Boot) ☕ y Python (FastAPI) 🐍. Bases de datos SQL 🗄️.
+                    Desarrollador de software especializado en backend, con experiencia en el
+                    desarrollo de aplicaciones web utilizando Java (Spring Boot) y Python (FastAPI).
+                    Conocimientos en administración, diseño y gestión de bases de datos relacionales (SQL). 
                     <br /><br />
-                    APIs RESTful 🔗, apps web 🌐, escritorio 🖥️, servidores Linux 🐧 y Windows 🪟.
-                    Automatización con Python 🤖 y frontend con React 🎨.
+                    Experiencia en el desarrollo de APIs RESTful, aplicaciones web, aplicaciones de
+                    escritorio y administración de servidores Linux y Windows. También he trabajado
+                    en automatizaciónes con Python y desarrollo frontend con React, HTML, CSS y JavaScript.
                     <br /><br />
-                    Redes 🌐, ciberseguridad 🔐, DevOps ⚙️ y despliegue de apps 🚀.
+                    Conocimientos en redes, ciberseguridad, prácticas DevOps y despliegue de aplicaciones.
                 </p>
                 <h5 className={styles.location}>
                     <img

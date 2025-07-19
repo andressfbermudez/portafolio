@@ -66,25 +66,15 @@ const About = () => {
 
                 <section className={styles.descriptionAbout}>
                     <p>
-                        Desarrollador de software 👨‍💻 especializado en backend, con experiencia en desarrollo de aplicaciones
-                        web usando Java (Spring Boot) ☕ y Python (FastAPI) 🐍. Conocimientos en bases de datos
-                        relacionales (SQL) 🗄️.
-                        Experiencia en APIs RESTful 🔗, web apps 🌐, escritorio 🖥️ y administración de servidores
-                        Linux 🐧 y Windows 🪟.
+                        Desarrollador de software especializado en backend, con experiencia en el desarrollo
+                        de aplicaciones web utilizando Java (Spring Boot) y Python (FastAPI). Conocimientos
+                        en administración, diseño y gestión de bases de datos relacionales (SQL). 
                         <br /><br />
-                        También desarrollo en frontend con React, HTML, CSS y JavaScript 🎨💻.
+                        Experiencia en el desarrollo de APIs RESTful, aplicaciones web, aplicaciones de
+                        escritorio y administración de servidores Linux y Windows. También he trabajado en
+                        automatizaciónes con Python y desarrollo frontend con React, HTML, CSS y JavaScript.
                         <br /><br />
-                        🎓🚀✅ Graduado del programa ONE - Oracle Next Education, G7, en desarrollo backend con
-                        Java y Spring Framework.
-                        <Link className={styles.linkProjects} to="/certifications" onClick={() => window.scrollTo(0, 0)}>
-                            📌Ver certificaciones.
-                        </Link>
-                        <br /><br />
-                        🎓👨‍💻 Estudiante de Ingeniería de Software en el Politécnico Grancolombiano.
-                        <br /><br />
-                        Mi interés por la programación comenzó a los 12 años gracias a los videojuegos 🎮. Modifiqué
-                        modelos 🖌️, creé configuraciones 🛠️ y scripts 📜. En ese momento no sabía que eso era programación 🧑‍💻. Era solo diversión 🎯, pero se convirtió
-                        en mi profesión 💼. 🎨🎮 Programar es mi profesión y mi hobby.
+                        Conocimientos en redes, ciberseguridad, prácticas DevOps y despliegue de aplicaciones.
                     </p>
                 </section>
             </section>
