@@ -64,7 +64,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: left;
   scroll-margin-top: 6rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -80,6 +80,10 @@
   width: 100%;
 }
 
+.projectImage {
+  cursor: pointer;
+}
+
 .descriptionProject {
   font-size: 1rem;
   font-weight: 500;
@@ -88,6 +92,7 @@
   margin-bottom: 1.5rem;
   line-height: 1.6;
   word-break: break-word;
+  text-align: left;
 }
 
 .videoContainer {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styles from './Certifications.module.css';
 import { useEnhancements } from "../../hooks/useEnhancements";
 import { useNavigate } from "react-router-dom";
@@ -93,8 +93,22 @@ function Certifications() {
         "coursera/cursoPOOJavaCoursera.png",
         "coursera/cursoGoogleDataAnalyticsCoursera.png",
         "coursera/cursoResolverProblemasCoursera.png",
-        "coursera/insigniaDigitalSenatecCoursera.png"
+        "coursera/insigniaDigitalSenatecCoursera.png",
+        "ibm/fundamentos_ciberseguridad_ibm.png"
     ];
+
+    const imgRef = useRef(null);
+
+    // Para ver las imagenes en pantalla completa
+    const openFullscreen = (e) => {
+        if (e.target.requestFullscreen) {
+            e.target.requestFullscreen();
+        } else if (e.target.webkitRequestFullscreen) { // Safari
+            e.target.webkitRequestFullscreen();
+        } else if (e.target.msRequestFullscreen) { // IE/Edge
+            e.target.msRequestFullscreen();
+        }
+    };
 
     return (
         <main className={styles.main}>
@@ -106,6 +120,7 @@ function Certifications() {
                             className={`${styles.certificationImage} fullscreenImage`}
                             src={`/images/certifications/${path}`}
                             alt={`Certificación ${index + 1}`}
+                            onClick={openFullscreen}
                         />
                     ))}
                 </div>

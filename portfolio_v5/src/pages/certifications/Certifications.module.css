@@ -34,6 +34,7 @@
     border-radius: 0.4rem;
     box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .certificationImage:hover {
